@@ -24,9 +24,9 @@ Objeto(
 
 
 Mapa(
-    nombre,
+	nombre,
 	UID,
-    prcntj_cmplt
+	prcntj_cmplt
 	nivel_mundo)
 
 
@@ -43,8 +43,8 @@ Región(
 
 
 Evento_acción(
-    R.nombre,
-    M.nombre,
+	R.nombre,
+	M.nombre,
 	C.UID,
 	id,
 	posición_mapa,
@@ -58,53 +58,53 @@ Evento_acción(
 
 
 Evento_misiones(
-    id,
-    nombre,
-    desde,
-    hasta)
+	id,
+	nombre,
+	desde,
+	hasta)
 
 
 
 
 Tienda(
-    código,
-    tipo_div,
-    fecha,
-    obj_id,
-    cantidad,
-    cargo)
+	código,
+	tipo_div,
+	fecha,
+	obj_id,
+	cantidad,
+	cargo)
 
 
 Gachapon( 
-    código,
-    tipo,
-    obj_id,
-    fecha_hora)
+	código,
+	tipo,
+	obj_id,
+	fecha_hora)
 
 
 Otorga Em(
-    EM.id,
-    O.id,
-    C.UID,
-    cantidad,
+	EM.id,
+	O.id,
+	C.UID,
+	cantidad,
 	fecha)
 
 
 
 
 Otorga t(
-    T.id,
-    O.id,
-    C.UID,
-    cantidad,
+	T.id,
+	O.id,
+	C.UID,
+	cantidad,
 	fecha)
 
 
 
 
 Otorga G(
-    G.id,
-    O.id,
-    C.UID,
-    cantidad,
+	G.id,
+	O.id,
+	C.UID,
+	cantidad,
 	fecha)
