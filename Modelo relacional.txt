@@ -31,8 +31,8 @@ Mapa(
 
 
 Región(
-    nombre,
-    M.nombre,
+		nombre,
+		M.nombre,
 	C.UID,
 	prcntj_cmplt
 	cant_tp_act,
