@@ -1,57 +1,56 @@
-﻿multiplicidad y participación
-
+﻿
 
 Cuenta_usuario(
-UID,
-cantidad_resina, 
-correo_electronico,
-protogemas, 
-username, 
-cristales_genesis, 
-contraseña, 
-cantidad_mora,
-desde) 
+	UID,
+	cantidad_resina, 
+	correo_electronico,
+	protogemas, 
+	username, 
+	cristales_genesis, 
+	contraseña, 
+	cantidad_mora,
+	desde) 
 
 
 
 
 Objeto(
-id,
-C.UID,
-cantidad,
-obj_estrellas,
-tipo_obj,
-nombre)
+	id,
+	C.UID,
+	cantidad,
+	obj_estrellas,
+	tipo_obj,
+	nombre)
 
 
 Mapa(
-        nombre,
-UID,
-        prcntj_cmplt
-nivel_mundo)
+    nombre,
+	UID,
+    prcntj_cmplt
+	nivel_mundo)
 
 
 Región(
-        nombre,
-        M.nombre,
-C.UID,
-prcntj_cmplt
-cant_tp_act,
-cant_boss_act,
-cant_dominios_act,
-cant_estatuas_act
+    nombre,
+    M.nombre,
+	C.UID,
+	prcntj_cmplt
+	cant_tp_act,
+	cant_boss_act,
+	cant_dominios_act,
+	cant_estatuas_act
 )
 
 
 Evento_acción(
-        R.nombre,
-        M.nombre,
-C.UID,
-id,
-posición_mapa,
-tipo_acción,
-obj_id,
-cantidad)
+    R.nombre,
+    M.nombre,
+	C.UID,
+	id,
+	posición_mapa,
+	tipo_acción,
+	obj_id,
+	cantidad)
 
 
 
@@ -59,53 +58,53 @@ cantidad)
 
 
 Evento_misiones(
-        id,
-        nombre,
-        desde,
-        hasta)
+    id,
+    nombre,
+    desde,
+    hasta)
 
 
 
 
 Tienda(
-        código,
-        tipo_div,
-        fecha,
-        obj_id,
-        cantidad,
-        cargo)
+    código,
+    tipo_div,
+    fecha,
+    obj_id,
+    cantidad,
+    cargo)
 
 
 Gachapon( 
-        código,
-        tipo,
-        obj_id,
-        fecha_hora)
+    código,
+    tipo,
+    obj_id,
+    fecha_hora)
 
 
 Otorga Em(
-        EM.id,
-        O.id,
-        C.UID,
-        cantidad,
-fecha)
+    EM.id,
+    O.id,
+    C.UID,
+    cantidad,
+	fecha)
 
 
 
 
 Otorga t(
-        T.id,
-        O.id,
-        C.UID,
-        cantidad,
-fecha)
+    T.id,
+    O.id,
+    C.UID,
+    cantidad,
+	fecha)
 
 
 
 
 Otorga G(
-        G.id,
-        O.id,
-        C.UID,
-        cantidad,
-fecha)
+    G.id,
+    O.id,
+    C.UID,
+    cantidad,
+	fecha)
