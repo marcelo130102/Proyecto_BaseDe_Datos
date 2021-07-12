@@ -109,9 +109,7 @@ ALTER TABLE compra ADD CONSTRAINT compra_c_uid_fk FOREIGN KEY (c_uid) REFERENCES
 ALTER TABLE compra ADD CONSTRAINT compra_tipo_div_rest CHECK (tipo_div == 'USD' OR  tipo_div == 'protogema' OR tipo_div == 'mora' OR tipo_div == 'cristal_genesis');
 ALTER TABLE compra ADD CONSTRAINT compra_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
 ALTER TABLE compra ADD CONSTRAINT compra_cantidad_notneg CHECK (cantidad >= 0);
-
-
-
+ALTER TABLE compra ADD CONSTRAINT compra_cargo_notneg CHECK (cargo >= 0);
 
 
 -------------------------------gachapon-------------------------
@@ -127,14 +125,15 @@ CREATE TABLE gachapon (
 CREATE TABLE otorga_evento_mision (
 	eventmis_id int PRIMARY KEY NOT NULL,
 	obj_id int PRIMARY KEY NOT NULL,
-	uid bigint PRIMARY KEY NOT NULL,
+	c_uid bigint PRIMARY KEY NOT NULL,
 	cantidad int NOT NULL,
 	fecha date
 );
 
 ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_eventmis_id_fk FOREIGN KEY (eventmis_id) REFERENCES evento_mision (id);
 ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
-ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_uid_fk FOREIGN KEY (uid) REFERENCES usuario (uid);
+ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_uid_fk FOREIGN KEY (c_uid) REFERENCES usuario (uid);
+ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_cantidad_notneg CHECK (cantidad >= 0);
 
 
 -------------------------------otorga_gachapon-------------------------
@@ -148,4 +147,4 @@ CREATE TABLE otorga_gachapon(
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_gacha_id_fk FOREIGN KEY (gacha_id) REFERENCES gachapon(codigo);
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_uid_fk FOREIGN KEY (uid) REFERENCES usuario (uid);
-
+ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_cantidad_notneg CHECK (cantidad >= 0);
