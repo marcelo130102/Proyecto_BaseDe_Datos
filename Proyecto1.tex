@@ -9,6 +9,7 @@
 \usepackage{endnotes}
 \usepackage{ragged2e}
 \usepackage{multirow}
+
 \setlength{\oddsidemargin}{25mm}
 \setlength{\evensidemargin}{25mm}
 \setlength{\voffset}{6mm}
@@ -40,7 +41,7 @@
 \fancyfoot[RE,LO]{\textbf{Grupo 4}}
 
 \renewcommand{\footrulewidth}{0.4pt}
-\graphicspath{ {C:/Users/usuario/OneDrive/Escritorio/UTEC/Semestre 4/Base_de_datos_1/Proyecto/imagenes}}
+\graphicspath{ {C:/Users/usuario/OneDrive/Escritorio/UTEC/Semestre_4/Base_de_datos_1/Proyecto_BaseDe_Datos/imagenes}}
 \renewcommand{\notesname}{Notas}
 
 \title{
@@ -98,12 +99,14 @@ Genshin Impact}\\
 
 \subsection{Tipos de consulta, actualizaciones}
 \paragraph{Las consultas dentro del videojuego estarían enfocadas principalmente en base a los usuarios y que tanto se ha desarrollado dentro de su propio mundo abierto, donde se daría a conocer cientos de detalles que poseen todos los jugadores. Por otro lado, las actualizaciones se ven reflejadas en momentos donde el usuario adquiere o recoge objetos o incrementa factores respecto a sus personajes, y esto generaría una actualización respecto al cambio generado en cierto aspecto puesto que no hay necesidad de actualizar toda la información.}
+\paragraph{Además, otro tipo de consultas serían dirigidas a estadísticas promedio de un jugador, por personaje adquirido o el poder total de todo su equipo, asimismo permitir actualizar los datos de los usuarios.}
 
 \subsection{Tamaño estimado de la base de datos}
 \paragraph{Sabemos que el programa, código fuente del videojuego, requiere de una base de datos para poder extraer esa data necesaria de cada usuario en particular y sea plasmada en la propia interfaz gráfica. Por lo tanto, al referirnos a un juego de mundo abierto de tal escala, donde se encuentran miles de objetos posicionados con los que puedes interactuar, debemos considerar una base de datos considerablemente grande donde se almacenen estos objetos junto con las características o atributos que lo definen. Con lo mencionado anteriormente, debemos entender que todo esos objetos contenidos en una cuenta dependen únicamente del jugador, y se especula que la cantidad total de usuarios con cuenta activa supera los 21.3 millones de usuarios; lo cual nos da una idea más clara de una cantidad aproximada. }
 
 \section{ Objetivos del proyecto}
-\paragraph{Dar a los usuarios del juego una facilidad de acceso a los diferentes apartados del videojuego, además de conocer ofertas actuales o las estadísticas de distintos personajes y jugadores.}
+\paragraph{Manejar la verificación de de posesión de objetos y principalmente recolectar data que 
+ayuden a tomar decisiones para mejorar el juego.}
 
 \section{Referencias del proyecto}
 \paragraph{El principal autor para el propio desarrollo del proyecto es el estudio MiHoyo. La data puede ser extraída únicamente del propio videojuego, Genshin Impact; y como de páginas web que previamente han recolectado la data mostrada dentro del videojuego. }
@@ -125,7 +128,7 @@ Genshin Impact}\\
     \item En el mapa único de cada jugador se pueden realizar múltiples acciones limitadas, desde recoger hasta eliminar enemigos. Tales acciones conllevan una recompensa para el jugador de recolectables u objetos.
     \item Se sabe que los usuarios pueden armar un equipo donde los personajes predeterminados pueden estar incluidos, siendo un equipo formado por más de uno y menor o igual a 4 personajes jugables.
     \item Dichos personajes, de forma individual, poseen item’s clasificados en artefactos y armas, donde se puede equipar con 0 o 5 artefactos como máximo y necesariamente 1 arma. Además tanto los talentos como los atributos, dependen de un propio personaje jugable.
-    \item Por último, el jugador puede acceder desde su menú a un apartado de eventos que se crean y tienen un tiempo límite para realizar las misiones asignadas; además de la tienda donde pueden adquirir ciertos objetos por un intercambio; también cuentan con un sistema gachapon donde por medio de otorgar protegidas puedes lanzar a un gachapon y obtener objetos más únicos.
+    \item Por último, el jugador puede acceder desde su menú a un apartado de eventos que se crean y tienen un tiempo límite para realizar las misiones asignadas; además de la tienda donde pueden adquirir ciertos objetos por un intercambio; también cuentan con un sistema gachapon\endnotetext{Son una variedad de cápsulas de juguetes dispensados en máquinas expendedoras y con mucha popularidad en Japón. "Gashapon"\ es una onomatopeya de dos sonidos: "gasha" (o "gacha") para la acción de arranque manual de una máquina expendedora de cápsulas de juguetes, y "pon"\  para el aterrizaje de la cápsula de juguete en la bandeja de recolección. "Gashapon"\ se usa tanto para las máquinas como para los juguetes que se obtienen de ellas.} donde por medio de otorgar protegidas puedes lanzar a un gachapon y obtener objetos más únicos.
 \end{itemize}
 
 \section{Modelo Entidad-Relación}
@@ -331,6 +334,8 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     Foreign Key &\\ 
     \hline
+    No aplica\\
+    \hline
     \end{tabular}
 \end{center}
 
@@ -355,7 +360,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     Primary Key& Nombre\\ 
     \hline
-    Foreign Key& \\ 
+    Foreign Key& No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -368,7 +373,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     Primary Key& Nombre\\ 
     \hline
-    Foreign Key& \\ 
+    Foreign Key& No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -382,7 +387,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \multirow{8}{6em}{Primary Key}& CMH.UID\\ &Personaje.nombre\\ &vida\_base\\ &ataque\_base\\ &def\_base\\
     &crit\_dmg\\ &crit\_rage\\ 
     \hline
-    Foreign Key& \\ 
+    Foreign Key& No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -395,11 +400,10 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     Primary Key& CMH.UID, Nombre, desde, hasta\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key & No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
-\newpage
 
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
@@ -409,7 +413,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     Primary Key& CMH.UID, fecha\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key & No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -422,7 +426,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     Primary Key& fecha, CMH.UID\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key & No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -435,7 +439,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     Primary Key& fecha\_hora, CMH.UID\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key & No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -448,7 +452,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     \multirow{2}{4em}{Primary Key}& Nombre\\ & CMH\_UID\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key & No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -461,7 +465,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     Primary Key& CMH.UID\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key & No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -474,7 +478,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     \multirow{3}{4em}{Primary Key}& CMH.UID\\ &posicion\\ &tipo\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key & No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -487,7 +491,7 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     \multirow{2}{4em}{Primary Key}& CMH.UID\\ Id\_mapa\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key & No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -500,11 +504,11 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     \multirow{2}{4em}{Primary Key}& Nombre\\ &Id\_mapa\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key & No aplica\\ 
     \hline
     \end{tabular}
 \end{center}
-\newpage
+
 \subsection{Relaciones binarias}
 
 \begin{center}    
@@ -684,23 +688,25 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \end{tabular}
 \end{center}
 
+%TODO: Cambiar imagenes a tablas
+
 \subsection{Diccionario de datos}
-\includegraphics[scale = 0.7]{1_p}
+\includegraphics[scale = 0.7]{1_p.jpg}
 \newpage
-\includegraphics[scale = 0.8]{3_p}
-\includegraphics[scale = 0.7]{4_p}
+\includegraphics[scale = 0.8]{3_p.jpg}
+\includegraphics[scale = 0.7]{4_p.jpg}
 \newpage
-\includegraphics[scale = 0.7]{5_p}
-\includegraphics[scale = 0.7]{6_p}
+\includegraphics[scale = 0.7]{5_p.jpg}
+\includegraphics[scale = 0.7]{6_p.jpg}
 \newpage
-\includegraphics[scale = 0.7]{7_p}
-\includegraphics[scale = 0.7]{8_p}
+\includegraphics[scale = 0.7]{7_p.jpg}
+\includegraphics[scale = 0.7]{8_p.jpg}
 \newpage
-\includegraphics[scale = 0.7]{9_p}
-\includegraphics[scale = 0.7]{10_p}
+\includegraphics[scale = 0.7]{9_p.jpg}
+\includegraphics[scale = 0.7]{10_p.jpg}
 \newpage
-\includegraphics[scale = 0.7]{11_p}
-\includegraphics[scale = 0.7]{12_p}
+\includegraphics[scale = 0.7]{11_p.jpg}
+\includegraphics[scale = 0.7]{12_p.jpg}
 
 
 \chapter{Significados y notas}
