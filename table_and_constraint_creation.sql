@@ -32,6 +32,7 @@ CREATE TABLE objeto (
 );
 ALTER TABLE objeto ADD CONSTRAINT objeto_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
 ALTER TABLE objeto ADD CONSTRAINT objeto_cantidad_notneg CHECK (cantidad >= 0);
+ALTER TABLE objeto ADD CONSTRAINT objeto_estrellas_notneg CHECK (obj_estrellas >= 0);
 
 
 -------------------------------mapa-------------------------
@@ -42,6 +43,8 @@ CREATE TABLE mapa (
 	nivel_mundo smallint NOT NULL
 );
 ALTER TABLE mapa ADD CONSTRAINT mapa_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
+ALTER TABLE mapa ADD CONSTRAINT mapa_porcntj_compl_range CHECK (porcentaje_cmplt BETWEEN 0 AND 100);
+ALTER TABLE mapa ADD CONSTRAINT mapa_nivmund_notneg CHECK (nivel_mundo >= 0);
 
 
 -------------------------------region-------------------------
@@ -56,7 +59,12 @@ CREATE TABLE region (
 	cant_estatuas_act smallint NOT NULL
 );
 ALTER TABLE region ADD CONSTRAINT region_nombre_m_fk FOREIGN KEY (nombre_m) REFERENCES mapa (nombre);
-ALTER TABLE region  ADD CONSTRAINT region_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
+ALTER TABLE region ADD CONSTRAINT region_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
+ALTER TABLE region ADD CONSTRAINT region_prcntj_cmplt_r_range CHECK (porcentaje_cmplt_r BETWEEN  0 AND 100);
+ALTER TABLE region ADD CONSTRAINT region_cant_tp_notneg CHECK (cant_tp_act >= 0);
+ALTER TABLE region ADD CONSTRAINT region_cant_boss_notneg CHECK (cant_boss_act >= 0);
+ALTER TABLE region ADD CONSTRAINT region_cant_dominios_notneg CHECK (cant_dominios_act >= 0);
+ALTER TABLE region ADD CONSTRAINT region_cant_estatuas_notneg CHECK (cant_estatuas_act >= 0);
 
 
 -------------------------------evento_accion-------------------------
@@ -87,7 +95,7 @@ ALTER TABLE evento_mision ADD CONSTRAINT eventmis_fecha_check CHECK (desde <= ha
 
 
 -------------------------------tienda-------------------------
-CREATE TABLE tienda (
+CREATE TABLE compra (
 	codigo bigint PRIMARY KEY NOT NULL,
 	c_uid bigint NOT NULL,
 	tipo_div varchar(50) NOT NULL,
@@ -96,7 +104,7 @@ CREATE TABLE tienda (
 	cantidad smallint NOT NULL,
 	cargo int NOT NULL
 );
-ALTER TABLE tienda ADD CONSTRAINT tienda_c_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
+ALTER TABLE compra ADD CONSTRAINT tienda_c_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
 
 
 -------------------------------gachapon-------------------------
@@ -109,7 +117,7 @@ CREATE TABLE gachapon (
 
 
 -------------------------------Otorga_em-------------------------
-CREATE TABLE Otorga_em (
+CREATE TABLE otorga_evento_mision (
 	eventmis_id int PRIMARY KEY NOT NULL,
 	obj_id int PRIMARY KEY NOT NULL,
 	uid bigint PRIMARY KEY NOT NULL,
@@ -117,9 +125,9 @@ CREATE TABLE Otorga_em (
 	fecha date
 );
 
-ALTER TABLE Otorga_em ADD CONSTRAINT otorga_eventmis_id_fk FOREIGN KEY (eventmis_id) REFERENCES evento_mision (id);
-ALTER TABLE Otorga_em ADD CONSTRAINT otorga_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
-ALTER TABLE Otorga_em ADD CONSTRAINT otorga_uid_fk FOREIGN KEY (uid) REFERENCES usuario (uid);
+ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_eventmis_id_fk FOREIGN KEY (eventmis_id) REFERENCES evento_mision (id);
+ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
+ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_uid_fk FOREIGN KEY (uid) REFERENCES usuario (uid);
 
 
 -------------------------------otorga_gachapon-------------------------
