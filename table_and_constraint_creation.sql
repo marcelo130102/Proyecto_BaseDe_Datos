@@ -67,8 +67,8 @@ ALTER TABLE region ADD CONSTRAINT region_cant_dominios_notneg CHECK (cant_domini
 ALTER TABLE region ADD CONSTRAINT region_cant_estatuas_notneg CHECK (cant_estatuas_act >= 0);
 
 
--------------------------------evento_accion-------------------------
-CREATE TABLE evento_accion (
+-------------------------------recompensa_explo-------------------------
+CREATE TABLE recompensa_explo (
 	nombre_r varchar(60) PRIMARY KEY NOT NULL,
 	nombre_m varchar(60) PRIMARY KEY NOT NULL,
 	c_uid bigint PRIMARY KEY NOT NULL,
@@ -78,10 +78,11 @@ CREATE TABLE evento_accion (
 	obj_id int NOT NULL,
 	cantidad smallint NOT NULL
 );
-ALTER TABLE evento_accion ADD CONSTRAINT evento_accion_nombre_r_fk FOREIGN KEY (nombre_r) REFERENCES region (nombre_r);
-ALTER TABLE evento_accion ADD CONSTRAINT evento_accion_nombre_m_fk FOREIGN KEY (nombre_m) REFERENCES mapa (nombre);
-ALTER TABLE evento_accion ADD CONSTRAINT evento_accion_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
-
+ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_nombre_r_fk FOREIGN KEY (nombre_r) REFERENCES region (nombre_r);
+ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_nombre_m_fk FOREIGN KEY (nombre_m) REFERENCES mapa (nombre);
+ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
+ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id)
+ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_cant_notneg CHECK (cantidad >= 0);
 
 -------------------------------evento_mision-------------------------
 CREATE TABLE evento_mision (
@@ -94,7 +95,7 @@ CREATE TABLE evento_mision (
 ALTER TABLE evento_mision ADD CONSTRAINT eventmis_fecha_check CHECK (desde <= hasta);
 
 
--------------------------------tienda-------------------------
+-------------------------------compra-------------------------
 CREATE TABLE compra (
 	codigo bigint PRIMARY KEY NOT NULL,
 	c_uid bigint NOT NULL,
@@ -104,7 +105,13 @@ CREATE TABLE compra (
 	cantidad smallint NOT NULL,
 	cargo int NOT NULL
 );
-ALTER TABLE compra ADD CONSTRAINT tienda_c_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
+ALTER TABLE compra ADD CONSTRAINT compra_c_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
+ALTER TABLE compra ADD CONSTRAINT compra_tipo_div_rest CHECK (tipo_div == 'USD' OR  tipo_div == 'protogema' OR tipo_div == 'mora' OR tipo_div == 'cristal_genesis');
+ALTER TABLE compra ADD CONSTRAINT compra_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
+ALTER TABLE compra ADD CONSTRAINT compra_cantidad_notneg CHECK (cantidad >= 0);
+
+
+
 
 
 -------------------------------gachapon-------------------------
