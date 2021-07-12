@@ -9,6 +9,7 @@
 \usepackage{endnotes}
 \usepackage{ragged2e}
 \usepackage{multirow}
+
 \setlength{\oddsidemargin}{25mm}
 \setlength{\evensidemargin}{25mm}
 \setlength{\voffset}{6mm}
@@ -40,7 +41,7 @@
 \fancyfoot[RE,LO]{\textbf{Grupo 4}}
 
 \renewcommand{\footrulewidth}{0.4pt}
-\graphicspath{ {C:/Users/usuario/OneDrive/Escritorio/UTEC/Semestre 4/Base_de_datos_1/Proyecto/imagenes}}
+\graphicspath{ {C:/Users/usuario/OneDrive/Escritorio/UTEC/Semestre_4/Base_de_datos_1/Proyecto_BaseDe_Datos/imagenes}}
 \renewcommand{\notesname}{Notas}
 
 \title{
@@ -81,9 +82,9 @@ Genshin Impact}\\
 \section{¿Cómo resuelve el problema hoy?}
 
 \subsection{¿Cómo se almacenan/procesan los datos hoy?}
-\paragraph{Según lo investigado respecto a Genshin Impact, se sabe que los datos almacenados se refiere a la totalidad de objetos interactuables u observados en el mapa de los millones de usuarios.}
+\paragraph{Según lo investigado respecto a Genshin Impact, se sabe que los datos almacenados se refiere a la totalidad de objetos interactuables u observados en el mapa de los millones de usuarios. Además, se conoce que los personajes jugables tambien son almacenas junto con sus habilidades y demás data importante respecto a ello.}
 \subsection{Flujo de datos}
-\paragraph{La cuenta que crea puede ser linkeada con una o varias redes sociales, además de que esta permite acceder a la comunidad multijugador y guardar progresos dentro del videojuego.}
+\paragraph{La cuenta que cse rea puede ser linkeada con una o varias redes sociales, además de que esta permite acceder a la comunidad multijugador y guardar progresos dentro del videojuego.}
 \paragraph{Además, el videojuego tiene una historia principal en la cual se recolectan objetos acorde a lo que ofrecen, además de misiones secundarias y eventos semanales los cuales sirven para que el usuario almacene todo lo obtenido en un inventario sincronizado con la cuenta.}
 
 \section{Descripción detallada del sistema}
@@ -98,12 +99,14 @@ Genshin Impact}\\
 
 \subsection{Tipos de consulta, actualizaciones}
 \paragraph{Las consultas dentro del videojuego estarían enfocadas principalmente en base a los usuarios y que tanto se ha desarrollado dentro de su propio mundo abierto, donde se daría a conocer cientos de detalles que poseen todos los jugadores. Por otro lado, las actualizaciones se ven reflejadas en momentos donde el usuario adquiere o recoge objetos o incrementa factores respecto a sus personajes, y esto generaría una actualización respecto al cambio generado en cierto aspecto puesto que no hay necesidad de actualizar toda la información.}
+\paragraph{Además, otro tipo de consultas serían dirigidas a estadísticas promedio de un jugador, por personaje adquirido o el poder total de todo su equipo, asimismo permitir actualizar los datos de los usuarios.}
 
 \subsection{Tamaño estimado de la base de datos}
 \paragraph{Sabemos que el programa, código fuente del videojuego, requiere de una base de datos para poder extraer esa data necesaria de cada usuario en particular y sea plasmada en la propia interfaz gráfica. Por lo tanto, al referirnos a un juego de mundo abierto de tal escala, donde se encuentran miles de objetos posicionados con los que puedes interactuar, debemos considerar una base de datos considerablemente grande donde se almacenen estos objetos junto con las características o atributos que lo definen. Con lo mencionado anteriormente, debemos entender que todo esos objetos contenidos en una cuenta dependen únicamente del jugador, y se especula que la cantidad total de usuarios con cuenta activa supera los 21.3 millones de usuarios; lo cual nos da una idea más clara de una cantidad aproximada. }
 
 \section{ Objetivos del proyecto}
-\paragraph{Dar a los usuarios del juego una facilidad de acceso a los diferentes apartados del videojuego, además de conocer ofertas actuales o las estadísticas de distintos personajes y jugadores.}
+\paragraph{Manejar la verificación de de posesión de objetos y principalmente recolectar data que 
+ayuden a tomar decisiones para mejorar el juego.}
 
 \section{Referencias del proyecto}
 \paragraph{El principal autor para el propio desarrollo del proyecto es el estudio MiHoyo. La data puede ser extraída únicamente del propio videojuego, Genshin Impact; y como de páginas web que previamente han recolectado la data mostrada dentro del videojuego. }
@@ -125,7 +128,7 @@ Genshin Impact}\\
     \item En el mapa único de cada jugador se pueden realizar múltiples acciones limitadas, desde recoger hasta eliminar enemigos. Tales acciones conllevan una recompensa para el jugador de recolectables u objetos.
     \item Se sabe que los usuarios pueden armar un equipo donde los personajes predeterminados pueden estar incluidos, siendo un equipo formado por más de uno y menor o igual a 4 personajes jugables.
     \item Dichos personajes, de forma individual, poseen item’s clasificados en artefactos y armas, donde se puede equipar con 0 o 5 artefactos como máximo y necesariamente 1 arma. Además tanto los talentos como los atributos, dependen de un propio personaje jugable.
-    \item Por último, el jugador puede acceder desde su menú a un apartado de eventos que se crean y tienen un tiempo límite para realizar las misiones asignadas; además de la tienda donde pueden adquirir ciertos objetos por un intercambio; también cuentan con un sistema gachapon donde por medio de otorgar protegidas puedes lanzar a un gachapon y obtener objetos más únicos.
+    \item Por último, el jugador puede acceder desde su menú a un apartado de eventos que se crean y tienen un tiempo límite para realizar las misiones asignadas; además de la tienda donde pueden adquirir ciertos objetos por un intercambio; también cuentan con un sistema gachapon\endnotetext{Son una variedad de cápsulas de juguetes dispensados en máquinas expendedoras y con mucha popularidad en Japón. "Gashapon"\ es una onomatopeya de dos sonidos: "gasha" (o "gacha") para la acción de arranque manual de una máquina expendedora de cápsulas de juguetes, y "pon"\  para el aterrizaje de la cápsula de juguete en la bandeja de recolección. "Gashapon"\ se usa tanto para las máquinas como para los juguetes que se obtienen de ellas.} donde por medio de otorgar protegidas puedes lanzar a un gachapon y obtener objetos más únicos.
 \end{itemize}
 
 \section{Modelo Entidad-Relación}
@@ -134,150 +137,67 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
 \section{Especificaciones y consideraciones sobre el proyecto}
 \paragraph{En esta sección se describirá el modelo relacional para explicarlo.}
 \begin{itemize}
-    \item[$\blacksquare$] \textbf{Persona register}
+    \item[$\blacksquare$] \textbf{Cuenta\_usuario}
         \begin{itemize}
-            \item \textbf{Correo electrónico:} Todos los jugadores son identificados con un solo correo electrónico.
+            \item \textbf {UID: } El UserID es la clave númerica que va a identificar a cada jugador
+            \item \textbf{Correo\_electrónico:} Todos los jugadores son identificados con un solo correo electrónico.
+            \item \textbf{Username: } Es el nombre virtual que el jugador elige para el videojuego
             \item \textbf{Contraseña: }Sera el string con el que el usuario ingresa a su cuenta.
-            \item \textbf{Género:} Es el género optado dentro del juego.
-            \item \textbf{Celular:} Es el número para recuperación de cuenta.
-        \end{itemize}
-    \item[$\blacksquare$] \textbf{Cuenta Mihoyo/Usario}
-        \begin{itemize}
-            \item \textbf{UID:} Es el ID único que tienen todos los usuarios.
-            \item \textbf{Protogemas:} Es la moneda que se usa dentro del juego para la compra de gachapones.
-            \item \textbf{Metodo\_pago:} Es el medio que usa para comprar objetos dentro del juego.
-            \item \textbf{Cristales\_genesis:} Son cristales que se compran con los métodos de pago.
-            \item \textbf{Cantidad\_moras:} Sirven para mejorar armas, personajes e intercambiar con NPC.
-            \item \textbf{Cantidad\_resinas} Divisa para reclamar recompensas en las raids\endnote{Del inglés raid (incursión, redada).
+            \item \textbf{Cantidad\_resina: } El material denominado "Resina" pertenece al juego y es utilizado para reclamar recompensas mediante raids\endnote{Del inglés raid (incursión, redada).
             En juegos multijugador masivos (MMO), es un tipo de misión donde un gran número de jugadores, mucho mayor que el estándar del juego, se enfrenta a una misión o a un jefe enemigo de gran dificultad.\\
             Generalmente este tipo de misiones se instancian.}.
-            \item \textbf{Es el nombre de usuario único dentro del juego.}
+            
+            \item \textbf{Protogemas: } Es un objeto importante en el juego, puesto que con las protogemas puedes adquirir cierta cantidad de "deseos". Los deseos son utilizados para adquirir personajes y armas por medio de los "Gachapones".
+            \item \textbf{Cristales\_genesis: } Los cristales genesis se pueden adquirir mediante cierto pago real, y estos son utilizados para intercambiar por protogemas y por ende obtener mayor cantidad de oportunidades para los "Gachapones".
+            \item \textbf{Cantidad\_mora: } El objeto "mora" son las monedas principales del videojuego, utilizadas para comprar materiales en tiendas dentro del juego.
+        \end{itemize}
+    \item[$\blacksquare$] \textbf{Objeto}
+        \begin{itemize}
+            \item \textbf{Id: } Es el Id que corresponden a los multiples objetos dentro del juego
+            \item \textbf{Nombre: } Es el nombre que tiene cada objeto en el juego.
+            \item \textbf{Tipo\_obj: } Es el tipo de objeto que se almacena, desde armas hasta materiales.
+            \item \textbf{Obj\_estrellas: } Todos los objetos poseen una cantidad de estrellas, desde 1 hasta 5, que determinan su rareza dentro del juego. 
+            \item \textbf{Cantidad: } Es la cantidad que los jugadores poseen de cada objeto.
         \end{itemize}
     \item [$\blacksquare$]\textbf{Evento\_Misiones}
         \begin{itemize}
-            \item \textbf{UID:} Identificador de usuario al que se le asigno el evento.
-            \item \textbf{Nombre:} Es el nombre que se le asigna al evento para las misiones.
-            \item \textbf{Desde:} Fecha de inicio del evento.
-            \item \textbf{Hasta:} Fecha de finalización del evento.
+            \item \textbf{Nombre: } Es el nombre que se le asigna al evento para las misiones.
+            \item \textbf{Desde: } Fecha de inicio del evento.
+            \item \textbf{Hasta: } Fecha de finalización del evento.
+            \item \textbf {Completado: } Determina si el usuario completo cierto evento o no.
         \end{itemize}
     \item[$\blacksquare$]\textbf{Tienda}
         \begin{itemize}
-            \item \textbf{UID:} Identificador de usuario que realiza la compra.
-            \item \textbf{Tipo\_divisa:} Es la moneda que se puede utilizar según el tipo el apartado de la tienda.
-            \item \textbf{Valor:} Es el costo de los objetos que se buscan adquirir.
-            \item \textbf{Tipo:} Es el tipo de objeto que se adquiere en la tienda.
-            \item \textbf{Cantidad:} Es la cantidad de objetos limitados que se pueden comprar en la tienda.
-            \item \textbf{Nombre\_O:} Es el nombre del objeto que se quiere obtener en la tienda.
-            \item \textbf{Fecha: } Es la fecha en la que se adquiere el objeto comprado en la tienda.
+            \item \textbf{Tipo\_obj: } Es el tipo de objeto que se adquiere en la tienda, desde personajes de baja calidad hasta materiales.
+            \item \textbf{Cargo: } Es el monto o cantidad de moras que cuesta cada objeto.
+            \item \textbf{Id: } Es el id del objeto que se esta adquiriendo.
+            \item \textbf{Cantidad: } Es la cantidad de objetos que se estan comprando, mientras más objetos mayor será el cargo.
+            \item \textbf{Nombre\_obj: } Es el nombre del objeto que estas adquiriendo.
+            \item \textbf{Fecha: } Es la fecha en la que el jugador adquiere cierto objeto.
+            \item \textbf{Código: } Refiere a un código de compra único que es creado al momento de adquirir un objeto.
+            \item \textbf{Tipo\_divisa:} Es la moneda que se puede utilizar según el tipo en el apartado de la tienda.
         \end{itemize}
     \item[$\blacksquare$]\textbf{Gachapon}
         \begin{itemize}
-            \item \textbf{Tipo:} Es el tipo de objeto que se compra con protogemas.
-            \item \textbf{Nombre: }Es el nombre del objeto adquirido con la compra de gachapones.
-            \item \textbf{Fecha\_hora:} Es la fecha de adquisición del objeto comprado en el gachapon.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Evento\_Acción}
-        \begin{itemize}
-            \item \textbf{UID:} Identificador del usuario al que le pertenece el evento.
-            \item \textbf{Posición:} Región donde se está realizando el evento.
-            \item \textbf{Completado:} Es cuando se completa todo el evento.
-            \item \textbf{Tipo\_acción:} Eliminar criatura, recolectar,talar objetos para obtener materiales.  
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Recompensa\_g}
-        \begin{itemize}
-            \item \textbf{UID:} Identificador de usuario al que se le asigna la recompensa
-            \item \textbf{Tipo:} El tipo de objeto que se ha recolectado en el evento.
-            \item \textbf{Nombre:} Es el nombre del tipo de objeto que se recolectó en el evento.
+            \item \textbf{Tipo: } Es el tipo de objeto que se adquiere al momento de "comprar" un deseo. 
+            \item \textbf{Nombre\_obj: } Es el nombre del objeto adquirido con la compra de gachapones.
+            \item \textbf{Fecha\_hora:} Es la fecha de adquisición del objeto comprado mediante el gachapon.
+            \item \textbf{Código: } Es el código que es creado para identificar una compra y tirada en los gachapones
         \end{itemize}
     \item[$\blacksquare$]\textbf{Mapa}
         \begin{itemize}
-            \item \textbf{UID:} Identificador de usuario del mapa generado.
             \item \textbf{Id\_mapa:} Este mapa es único para cada usuario y tiene sus propias criaturas,recolectables y mazmorras.
-            \item \textbf{Porcentaje\_completado:} Es el porcentaje completado en las distintas regiones del mapa.
+            \item \textbf{Porcentaje\_cmplt:} Es el porcentaje completado en las distintas regiones del mapa.
         \end{itemize}
-    \item[$\blacksquare$]\textbf{Regiones}
+    \item[$\blacksquare$]\textbf{Region}
         \begin{itemize}
-            \item \textbf{Id\_mapa:} Identificador del mapa al que pertenece la región.
-            \item \textbf{Porcentaje\_completado:} Es el porcentaje de misiones completados dentro de la región.
             \item \textbf{Nombre:} Nombre de la región dentro del mapa del juego.
+            \item \textbf{Porcentaje\_completado:} Es el porcentaje de misiones completados dentro de la región.
         \end{itemize}
-    \item[$\blacksquare$]\textbf{NPC (Non Playable Character)}
+    \item[$\blacksquare$]\textbf{Evento\_Acción}
         \begin{itemize}
-            \item \textbf{ID:} Es el Id de la inteligencia artificial dentro del juego.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Humano}   
-        \begin{itemize}
-            \item \textbf{Nombre:} Es el nombre de los diferentes personajes que están distribuidos dentro del mapa y tienes un mensaje predeterminado.
-        \end{itemize}     
-    \item[$\blacksquare$]\textbf{H\_Vende} 
-        \begin{itemize}
-            \item \textbf{Posición:} Es la única posición que posee cada NPC con los que se puede interactuar para compra de objetos.
-            \item \textbf{Nombre\_encargado:} Es el nombre del NPC que posee su tienda u objetos que vender.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Tienda\_interact}  
-        \begin{itemize}
-            \item \textbf{Id\_tienda:} Es el ID que identifica a cada tienda presente en el videojuego.
-            \item \textbf{Costo\_moras:} Es el costo de los objetos que se ofrecen.
-            \item \textbf{Tipo\_objeto:} Es el tipo de los objetos que se ofrecen.
-            \item \textbf{Nombre\_obj\_vende:} Es el nombre de los múltiples objetos que un NPC puede ofrecer.
-        \end{itemize}
-
-    \item[$\blacksquare$]\textbf{Humano\_no\_Vende}
-        \begin{itemize}
-            \item \textbf{Mensaje:} Es la interacción y diálogo único que se genera con cada NPC presente en el      juego.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Atributos\_Personajes} 
-        \begin{itemize}
-            \item \textbf{Nombre\_p:} Nombre del personake al que pertenecen los atributos.
-            \item \textbf{Id\_p:} Identificador del personaje.
-            \item \textbf{Vida\_base:} Es la vida inicial con que comienza cada personaje al inicio del juego.
-            \item \textbf{Crit\_dmg:} Es el daño critico base que hace cada personaje al inicio del juego.
-            \item \textbf{Def\_base:} Es la defensa básica que tiene cada personaje al inicio del juego.
-            \item \textbf{Ataque\_base:} Es el ataque básico que tiene cada personaje al inicio del juego.
-            \item \textbf{Crit\_rate:} Es porcentaje de crítico básico que tiene cada personaje al inicio del juego.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Personaje} 
-        \begin{itemize}
-            \item \textbf{UID:} Identificador del jugador al que pertenece el personaje.
-            \item \textbf{Nombres:} Es el nombre único que tiene cada personaje dentro del juego.
-            \item \textbf{Elementos:} Son los elementos únicos para cada personaje(Anemo, Geo, Pyro, Electro, Cryo, Dendro, Hydro).
-            \item \textbf{Nivel:} Es el nivel de cada personaje dentro del juego teniendo como máximo 90.
-            \item \textbf{Pasivas1\_2\_3:} Es el nombre de cada habilidad pasiva única por cada personaje del juego.
-            \item \textbf{Nro\_constelación:} Es el nivel de constelacion de cada personaje que se adquiere con la obtención del mismo personaje en gachapones.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Talento}
-        \begin{itemize}
-            \item \textbf{Nombre\_p:} Nombre del personake al que pertenecen los atributos.
-            \item \textbf{Id\_p:} Identificador del personaje.
-            \item \textbf{Tipo:} Refiere a los ataques normales, elementales y especiales.
-            \item \textbf{Nivel:} Es el nivel del talento del personaje.
-            \item \textbf{Nombre:} Es el nombre del talento del personaje.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Items\_Personaje}
-        \begin{itemize}
-            \item \textbf{Nombre:} Es el nombre único que tiene cada ítem del personaje dentro del juego.
-            \item \textbf{Stat\_principal:} Son las estadísticas principales de las armas dentro del juego.
-            \item \textbf{Substats:} Son estadísticas secundarias de las armas dentro del juego.
-            \item \textbf{Estrellas:} Es el rango de cada arma o artefacto que va desde 3 a 5 estrellas, siendo 5 las mejores.
-            \item \textbf{Pasiva:}Son las pasivas únicas por arma o artefacto del juego.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Artefactos}
-        \begin{itemize}
-            \item \textbf{Buff:} Son las estadísticas extras con el conjunto de objetos con categoría familia similar.
-            \item \textbf{Categoria\_art:} Son los diferentes artefactos que se pueden obtener en el juego.
-            \item \textbf{Familia:} Son las categorías únicas que poseen artefactos y al agrupar 2 o 4 de estas se genera un buff.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Armas}
-        \begin{itemize}
-            \item \textbf{Categoria\_arm:} Es el tipo de arma que poseen diferente estadísticas dentro del juego.
-            \item \textbf{Nivel\_refinamiento:} Es el nivel de refinamiento que poseen las armas siendo el nivel máximo 90.
-        \end{itemize}
-    \item[$\blacksquare$]\textbf{Configuración}
-        \begin{itemize}
-            \item \textbf{U\_Id:} Es el id del usuario único que se usa para configurar las opciones del juego.
-            \item \textbf{Idiomas:} Es el idiomas que elige el usuario para el idioma del juego.
-            \item \textbf{Gráficos:} son las opciones que el usuario elige para optimizar el mejor rendimiento para el juego.
-            \item \textbf{Audio:} Es el nivel de sonido que el usuario elige para el juego.
+            \item \textbf{Posicion\_mapa: } Posición precisa donde se encuentra el evento a realizar.
+            \item \textbf{Tipo\_acción:} Definiciones como eliminar criatura, recolectar, talar objetos para obtener materiales, entre otras.
         \end{itemize}
 \end{itemize}
 
@@ -285,35 +205,21 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
 \section{Modelo relacional}
 
 \begin{itemize}
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Persona} (Género:VARCHAR(1), \underline{correo\_electronico:VARCHAR(150)}, contraseña:VARCHAR(50), celular:INTEGER)}}
+    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Cuenta\_usuario} (\underline{UID:BIGINT}, username:VARCHAR(50),\\ correo\_electronico:VARCHAR(150), contraseña:VARCHAR(50), protogemas:BIGINT, cantidad\_resina:TINYINT, cristales\_genesis:BIGINT, cantidad\_mora:BIGINT)}}
 
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{CuentaMiHoyo} (\underline{UID:BIGINT}, username:VARCHAR(50), metodo\_pago, protogemas:BIGINT, cantidad\_resina:TINYINT, cristales\_genesis:BIGINT, cantidad\_mora:BIGINT, P.correo\_electronico:VARCHAR(150))}}
+    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Evento\_Misiones} (\underline{Cuenta\_Usuario.UID:BIGINT},  \underline{Nombre:VARCHAR(100)}, \underline{desde:DATE}, \underline{hasta:DATE},completado: BOOLEAN)}}
+    
+    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Objeto} (\underline{Cuenta\_Usuario.id:BIGINT},  Nombre:VARCHAR(100), cantidad:BIGINT ,tipo\_objeto:VARCHAR(30),objeto\_estrellas:VARCHAR(10)\\,tipo\_obj:VARCHAR(30))}}
 
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Artefactos} (\underline{nombre:VARCHAR(50)}, stat\_principal:VARCHAR(20), substats:VARCHAR(20), pasiva:VARCHAR(250), estrellas:TINYINT, buff:VARCHAR(250),categoria\_art:VARCHAR(10), familia:VARCHAR(50))}}
-
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Armas} (\underline{nombre:VARCHAR(50)}, stat\_principal:VARCHAR(20), substats:VARCHAR(20), pasiva:VARCHAR(250), estrellas:TINYINT, categoria\_arm:VARCHAR(10),nivel\_refinamiento:TINYINT)}}
-
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Atributo} (\underline{Item.nombre: VARCHAR(50)},\underline{CMH.UID:BIGINT}, \underline{Personaje.Nombre:VARCHAR(50)}, \underline{vida\_base:TINYINT}, \underline{ataque\_base:TINYINT}, \underline{def\_base:TINYINT}, \underline{crit\_dmg:TINYINT}, \underline{crit\_rage:TINYINT})}}
-
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Humano} (\underline{id}, \underline{nombre})}}
-
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Evento\_Misiones} (\underline{CMH.UID:BIGINT},  \underline{Nombre:VARCHAR(100)}, \underline{desde:DATE}, \underline{hasta:DATE})}}
-
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{recompensas\_g}(tipo:VARCHAR(50), nombre:VARCHAR(100), \underline{CMH.UID:BIGINT}, \underline{fecha:DATE})}}
-
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{tienda} (\underline{fecha:DATE}, valor,tipo\_divisa:VARCHAR(50), tipo:VARCHAR(50), cantidad:TINYINT, nombre:VARCHAR(50), \underline{CMH.UID:BIGINT})}}
+    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Tienda} (\underline{fecha:DATE}, valor,tipo\_divisa:VARCHAR(50), tipo:VARCHAR(50), cantidad:TINYINT, nombre:VARCHAR(50), \underline{CMH.UID:BIGINT})}}
 
     \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Gachapon} (\underline{fecha\_hora:TIME}, nombre:VARCHAR(50),tipo:VARCHAR(50), \underline{CMH.UID:BIGINT})}}
-
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Personajes} (\underline{Nombre:VARCHAR(50)},  elementos:VARCHAR(50), Nivel:TINYINT(2), \underline{CMH.UID:BIGINT},  pasiva\_1:VARCHAR(50), pasiva\_2:VARCHAR(50), pasiva\_3:VARCHAR(50), Nivel\_refinamiento:TINYINT)}}
-
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Configuración} (\underline{CMH.UID:BIGINT}, audio:TINYINT, gráficos:VARCHAR(10), idioma:VARCHAR(10))}}
-
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Evento\_accion} (\underline{CMH.UID:BIGINT}, \underline{posicion:VARCHAR(50)}, \underline{tipo:VARCHAR(50)}, completado:BOOELAN)}}
     
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Mapa} (\underline{CMH.UID:BIGINT}, \underline{id\_mapa:BIGINT}, porcentaje\_completo:DOUBLEPRESICION)}}
+    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Evento\_accion} (\underline{Cuenta\_Usuario.UID:BIGINT}, \underline{posicion\_mapa:VARCHAR(50)}, \underline{tipo\_accion:VARCHAR(50).}}}
+    
+    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Mapa} (\underline{Cuenta\_Usuario..UID:BIGINT}, \underline{id\_mapa:BIGINT}, porcentaje\_completo\_m:DOUBLEPRESICION)}}
 
-    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Regiones} (\underline{Id\_mapa:BIGINT}, \underline{Nombre:VARCHAR(255)}, porcentaje\_completado\_r)}
+    \item[$\rightarrow$]\onehalfspacing{ \justify{\textbf{Region} (\underline{Id\_mapa:BIGINT}, \underline{Nombre:VARCHAR(255)}, porcentaje\_completado\_r)}
     }
 
 \end{itemize}
@@ -324,25 +230,12 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
     \hline
-    \multicolumn{2}{|c|}{Persona\_register} \\ 
-    \hline
-    \hline
-    Primary Key& correo\_electrónico\\ 
-    \hline
-    Foreign Key &\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{CuentaMiHoyo} \\ 
+    \multicolumn{2}{|c|}{Cuenta_usuario} \\ 
     \hline
     \hline
     Primary Key& UID\\ 
     \hline
-    Foreign Key& correo\_electrónico \\ 
+    Foreign Key & -\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -350,131 +243,12 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
     \hline
-    \multicolumn{2}{|c|}{Artefactos} \\ 
+    \multicolumn{2}{|c|}{Objeto} \\ 
     \hline
     \hline
-    Primary Key& Nombre\\ 
+    Primary Key& Cuenta\_Usuario.UID\\ 
     \hline
-    Foreign Key& \\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{Artefactos} \\ 
-    \hline
-    \hline
-    Primary Key& Nombre\\ 
-    \hline
-    Foreign Key& \\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{Atributo} \\ 
-    \hline
-    \hline
-    \multirow{8}{6em}{Primary Key}& CMH.UID\\ &Personaje.nombre\\ &vida\_base\\ &ataque\_base\\ &def\_base\\
-    &crit\_dmg\\ &crit\_rage\\ 
-    \hline
-    Foreign Key& \\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{Evento\_misiones} \\ 
-    \hline
-    \hline
-    Primary Key& CMH.UID, Nombre, desde, hasta\\ 
-    \hline
-    Foreign Key &\\ 
-    \hline
-    \end{tabular}
-\end{center}
-\newpage
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{Recompensa\_g} \\ 
-    \hline
-    \hline
-    Primary Key& CMH.UID, fecha\\ 
-    \hline
-    Foreign Key &\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{Tienda} \\ 
-    \hline
-    \hline
-    Primary Key& fecha, CMH.UID\\ 
-    \hline
-    Foreign Key &\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{Gachapon} \\ 
-    \hline
-    \hline
-    Primary Key& fecha\_hora, CMH.UID\\ 
-    \hline
-    Foreign Key &\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{Personajes} \\ 
-    \hline
-    \hline
-    \multirow{2}{4em}{Primary Key}& Nombre\\ & CMH\_UID\\ 
-    \hline
-    Foreign Key &\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{Configuración} \\ 
-    \hline
-    \hline
-    Primary Key& CMH.UID\\ 
-    \hline
-    Foreign Key &\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    \multicolumn{2}{|c|}{Evento\_acción} \\ 
-    \hline
-    \hline
-    \multirow{3}{4em}{Primary Key}& CMH.UID\\ &posicion\\ &tipo\\ 
-    \hline
-    Foreign Key &\\ 
+    Foreign Key& Cuenta\_Usuario.UID\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -485,9 +259,9 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \multicolumn{2}{|c|}{Mapa} \\ 
     \hline
     \hline
-    \multirow{2}{4em}{Primary Key}& CMH.UID\\ Id\_mapa\\ 
+    Primary Key & id\_mapa, Cuenta\_Usuario.UID\\
     \hline
-    Foreign Key &\\ 
+    Foreign Key& Cuenta\_Usuario.UID\\ 
     \hline
     \end{tabular}
 \end{center}
@@ -495,56 +269,101 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
     \hline
-    \multicolumn{2}{|c|}{Regiones} \\ 
+    \multicolumn{2}{|c|}{Region} \\ 
     \hline
     \hline
-    \multirow{2}{4em}{Primary Key}& Nombre\\ &Id\_mapa\\ 
+    Primary Key& -\\ 
     \hline
-    Foreign Key &\\ 
+    Foreign Key& nombre\\ 
     \hline
     \end{tabular}
 \end{center}
 \newpage
+\begin{center}    
+    \begin{tabular}{|p{3cm}|p{5cm}|}
+    \multicolumn{2}{|c|}{Evento\_Misiones} \\ 
+    \hline
+    \hline
+    Primary Key& desde,hasta,nombre\\ 
+    \hline
+    Foreign Key &-\\ 
+    \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}    
+    \begin{tabular}{|p{3cm}|p{5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{Tienda} \\ 
+    \hline
+    \hline
+    Primary Key& código\\ 
+    \hline
+    Foreign Key &-\\ 
+    \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}    
+    \begin{tabular}{|p{3cm}|p{5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{Gachapon} \\ 
+    \hline
+    \hline
+    Primary key&código\\
+    \hline
+    Foreign Key &-\\ 
+    \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}    
+    \begin{tabular}{|p{3cm}|p{5cm}|}
+    \hline
+    \multicolumn{2}{|c|}{Evento\_Acción} \\ 
+    \hline
+    \hline
+    Primary key&posición\_mapa,tipo\_acción\\
+    \hline
+    Foreign Key &-\\ 
+    \hline
+    \end{tabular}
+\end{center}
+
 \subsection{Relaciones binarias}
 
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
     \hline
-    Nombre de relación& Participa\\ 
+    Nombre de relación& otorga\_em\\ 
     \hline
     \hline
-    \multirow{2}{6em}{Entidades relacionadas}&Evento\_misiones \\ &CuentaMihoyo/Usuario\\ 
+    \multirow{2}{6em}{Entidades relacionadas}&Evento\_misiones \\ &Objeto\\ 
     \hline
     \end{tabular}
 \end{center}
-
-\hfill
 
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
     \hline
-    Nombre de relación& Compra\_en\\ 
+    Nombre de relación& otorga\_t\\ 
     \hline
     \hline
-    \multirow{2}{6em}{Entidades relacionadas}&Tienda \\ &CuentaMihoyo/Usuario\\ 
+    \multirow{2}{6em}{Entidades relacionadas}&Tienda \\ Objeto\\ 
     \hline
     \end{tabular}
 \end{center}
-
-\hfill
 
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
     \hline
-    Nombre de relación& Obtiene\\ 
+    Nombre de relación& otorga\_g\\ 
     \hline
     \hline
-    \multirow{2}{6em}{Entidades relacionadas}& Gachapon \\ &CuentaMihoyo/Usuario\\ 
+    \multirow{2}{6em}{Entidades relacionadas}& Gachapon \\ &Objeto\\ 
     \hline
     \end{tabular}
 \end{center}
-
-\hfill
 
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
@@ -557,98 +376,27 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \end{tabular}
 \end{center}
 
-\hfill
-
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
     \hline
-    Nombre de relación& Juega\_ en\\ 
+    Nombre de relación& Juega\_en\\ 
     \hline
     \hline
-    \multirow{2}{6em}{Entidades relacionadas}& Mapa \\ &CuentaMihoyo/Usuario\\ 
+    \multirow{2}{6em}{Entidades relacionadas}& Mapa \\ &Cuenta\_usuario\\ 
     \hline
     \end{tabular}
 \end{center}
 
-\hfill
-
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
     \hline
-    Nombre de relación& Conforman\\ 
+    Nombre de relación& contiene\\ 
     \hline
     \hline
-    \multirow{2}{6em}{Entidades relacionadas}& Equipo \\ &Personajes\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\hfill
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    Nombre de relación& Contiene\\ 
-    \hline
-    \hline
-    \multirow{2}{6em}{Entidades relacionadas}& Mapa \\ &Regiones\\ 
+    \multirow{2}{6em}{Entidades relacionadas}& Mapa \\ &Región\\ 
     \hline
     \end{tabular}
 \end{center}
-
-\hfill
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    Nombre de relación& Equipa\\ 
-    \hline
-    \hline
-    \multirow{2}{6em}{Entidades relacionadas}& Personajes \\ &Armas\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\hfill
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    Nombre de relación& Equipa\\ 
-    \hline
-    \hline
-    \multirow{2}{6em}{Entidades relacionadas}& Personajes \\ &Artefactos\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\hfill
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    Nombre de relación& Tienen\\ 
-    \hline
-    \hline
-    \multirow{2}{6em}{Entidades relacionadas}& Personajes \\ &Talento\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\hfill
-
-\begin{center}    
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-    \hline
-    Nombre de relación& Tiene\_A\\ 
-    \hline
-    \hline
-    \multirow{2}{6em}{Entidades relacionadas}& Personajes \\ &Atributos\\ 
-    \hline
-    \end{tabular}
-\end{center}
-
-\hfill
 
 \begin{center}    
     \begin{tabular}{|p{3cm}|p{5cm}|}
@@ -657,6 +405,18 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     \hline
     \hline
     \multirow{2}{6em}{Entidades relacionadas}& Personajes \\ &Evento\_acción\\ 
+    \hline
+    \end{tabular}
+\end{center}
+
+
+\begin{center}    
+    \begin{tabular}{|p{3cm}|p{5cm}|}
+    \hline
+    Nombre de relación& otorga\_ea\\ 
+    \hline
+    \hline
+    \multirow{3}{6em}{Entidades relacionadas}& objeto \\ &Evento\_acción \\ 
     \hline
     \end{tabular}
 \end{center}
@@ -679,34 +439,33 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
     Nombre de relación& Compra\_en\\ 
     \hline
     \hline
-    \multirow{3}{6em}{Entidades relacionadas}& reompensa\_g \\ &Evento\_acción \\ &Evento\_Misiones\\ 
+    \multirow{3}{6em}{Entidades relacionadas}& recompensa\_g \\ &Evento\_acción \\ &Evento\_Misiones\\ 
     \hline
     \end{tabular}
 \end{center}
 
+%TODO: Cambiar imagenes a tablas
+
 \subsection{Diccionario de datos}
-\includegraphics[scale = 0.7]{1_p}
+\includegraphics[scale = 0.7]{1_p.jpg}
 \newpage
-\includegraphics[scale = 0.8]{3_p}
-\includegraphics[scale = 0.7]{4_p}
+\includegraphics[scale = 0.8]{3_p.jpg}
+\includegraphics[scale = 0.7]{4_p.jpg}
 \newpage
-\includegraphics[scale = 0.7]{5_p}
-\includegraphics[scale = 0.7]{6_p}
+\includegraphics[scale = 0.7]{5_p.jpg}
+\includegraphics[scale = 0.7]{6_p.jpg}
 \newpage
-\includegraphics[scale = 0.7]{7_p}
-\includegraphics[scale = 0.7]{8_p}
+\includegraphics[scale = 0.7]{7_p.jpg}
+\includegraphics[scale = 0.7]{8_p.jpg}
 \newpage
-\includegraphics[scale = 0.7]{9_p}
-\includegraphics[scale = 0.7]{10_p}
+\includegraphics[scale = 0.7]{9_p.jpg}
+\includegraphics[scale = 0.7]{10_p.jpg}
 \newpage
-\includegraphics[scale = 0.7]{11_p}
-\includegraphics[scale = 0.7]{12_p}
+\includegraphics[scale = 0.7]{11_p.jpg}
+\includegraphics[scale = 0.7]{12_p.jpg}
 
 
-\chapter{Significados y notas}
-\theendnotes
-
-
+\chapter{Significados 
 \appendix
 \chapter{Modelo Entidad-relación} \label{Entidad_Relacion}
 \includegraphics[scale = 0.50, angle=90]{AnexoA_1.jpg}
@@ -715,6 +474,9 @@ Revisar primer anexo \pageref{Entidad_Relacion}.
 \newline
 \newline
 Para apreciar mejor el modelo, se añade link a Miro con el modelo \href{https://miro.com/welcomeonboard/cm95QTlodklVRjI5cEtYaUF5UmprejR0OEpEazk3dzRmVkYxZ2hrVFdmVmc2RDl5NVpjeTdwenRYQThsSm9VdHwzMDc0NDU3MzQ4NTY5OTQ5NzE0}{'Entidad-Relación'}
+y notas}
+\theendnotes
+
 
 
 
