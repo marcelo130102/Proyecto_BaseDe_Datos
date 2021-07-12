@@ -14,6 +14,12 @@ CREATE TABLE cuenta_usuario (
 	cantidad_mora bigint NOT NULL,
 	desde date NOT NULL
 );
+ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_usuario_emailunique UNIQUE (correo_electronico);
+ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_cantidad_resina_notneg CHECK (cantidad_resina >= 0); 
+ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_protogemas_notneg CHECK (protogemas >= 0); 
+ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_cantidad_mora_notneg CHECK (cantidad_mora >= 0);
+ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_cristales_genesis_notneg CHECK (cristales_genesis >= 0); 
+
 
 -------------------------------objeto-------------------------
 CREATE TABLE objeto (
@@ -25,6 +31,7 @@ CREATE TABLE objeto (
 	nombre varchar(255) NOT NULL,
 );
 ALTER TABLE objeto ADD CONSTRAINT objeto_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
+ALTER TABLE objeto ADD CONSTRAINT objeto_cantidad_notneg CHECK (cantidad >= 0);
 
 
 -------------------------------mapa-------------------------
