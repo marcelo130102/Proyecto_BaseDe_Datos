@@ -171,7 +171,8 @@ BEGIN
 		SELECT *
 		FROM objeto O
 		WHERE O.c_uid = n_c_uid
-		AND O.id = n_id)
+		AND O.id = n_id
+		AND O.obj_estrellas = n_obj_estrellas)
 	THEN
 		UPDATE objeto SET cantidad = cantidad + n_cantidad;
 	ELSE
