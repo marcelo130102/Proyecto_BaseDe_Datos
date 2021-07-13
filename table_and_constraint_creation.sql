@@ -23,12 +23,13 @@ ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_cristales_genesis_notneg CHECK 
 
 -------------------------------objeto-------------------------
 CREATE TABLE objeto (
-	id int PRIMARY KEY NOT NULL,
-	c_uid bigint PRIMARY KEY NOT NULL
+	id int NOT NULL,
+	c_uid bigint NOT NULL,
 	cantidad int NOT NULL,
 	obj_estrellas smallint NOT NULL, 
 	tipo_obj varchar(50) NOT NULL,
 	nombre varchar(255) NOT NULL,
+	PRIMARY KEY (id,c_uid)
 );
 ALTER TABLE objeto ADD CONSTRAINT objeto_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
 ALTER TABLE objeto ADD CONSTRAINT objeto_cantidad_notneg CHECK (cantidad >= 0);
@@ -37,10 +38,11 @@ ALTER TABLE objeto ADD CONSTRAINT objeto_estrellas_notneg CHECK (obj_estrellas >
 
 -------------------------------mapa-------------------------
 CREATE TABLE mapa (
-	nombre varchar(60) PRIMARY KEY NOT NULL,
-	c_uid bigint PRIMARY KEY NOT NULL,
+	nombre varchar(60) NOT NULL,
+	c_uid bigint NOT NULL,
 	porcentaje_cmplt double precision NOT NULL,
-	nivel_mundo smallint NOT NULL
+	nivel_mundo smallint NOT NULL,
+	PRIMARY KEY (nombre, c_uid)
 );
 ALTER TABLE mapa ADD CONSTRAINT mapa_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
 ALTER TABLE mapa ADD CONSTRAINT mapa_porcntj_compl_range CHECK (porcentaje_cmplt BETWEEN 0 AND 100);
@@ -49,18 +51,18 @@ ALTER TABLE mapa ADD CONSTRAINT mapa_nivmund_notneg CHECK (nivel_mundo >= 0);
 
 -------------------------------region-------------------------
 CREATE TABLE region (
-	nombre_r varchar(60) PRIMARY KEY NOT NULL,
-	nombre_m varchar(60) PRIMARY KEY NOT NULL, 
-	c_uid bigint PRIMARY KEY NOT NULL,
+	nombre_r varchar(60) NOT NULL,
+	nombre_m varchar(60) NOT NULL, 
+	c_uid bigint NOT NULL,
 	prcntj_cmplt_r double precision NOT NULL,
 	cant_tp_act smallint NOT NULL,
 	cant_boss_act smallint NOT NULL,
 	cant_dominios_act smallint NOT NULL,
-	cant_estatuas_act smallint NOT NULL
+	cant_estatuas_act smallint NOT NULL,
+	PRIMARY KEY (nombre_r, nombre_m, c_uid)
 );
-ALTER TABLE region ADD CONSTRAINT region_nombre_m_fk FOREIGN KEY (nombre_m) REFERENCES mapa (nombre);
-ALTER TABLE region ADD CONSTRAINT region_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
-ALTER TABLE region ADD CONSTRAINT region_prcntj_cmplt_r_range CHECK (porcentaje_cmplt_r BETWEEN  0 AND 100);
+ALTER TABLE region ADD CONSTRAINT region_nombre_m_c_uid FOREIGN KEY (nombre_m, c_uid) REFERENCES mapa (nombre, c_uid)
+ALTER TABLE region ADD CONSTRAINT region_prcntj_cmplt_r_range CHECK (prcntj_cmplt_r BETWEEN  0 AND 100);
 ALTER TABLE region ADD CONSTRAINT region_cant_tp_notneg CHECK (cant_tp_act >= 0);
 ALTER TABLE region ADD CONSTRAINT region_cant_boss_notneg CHECK (cant_boss_act >= 0);
 ALTER TABLE region ADD CONSTRAINT region_cant_dominios_notneg CHECK (cant_dominios_act >= 0);
@@ -69,20 +71,25 @@ ALTER TABLE region ADD CONSTRAINT region_cant_estatuas_notneg CHECK (cant_estatu
 
 -------------------------------recompensa_explo-------------------------
 CREATE TABLE recompensa_explo (
-	nombre_r varchar(60) PRIMARY KEY NOT NULL,
-	nombre_m varchar(60) PRIMARY KEY NOT NULL,
-	c_uid bigint PRIMARY KEY NOT NULL,
-	id int PRIMARY KEY NOT NULL,
+	nombre_r varchar(60) NOT NULL,
+	nombre_m varchar(60) NOT NULL,
+	c_uid bigint NOT NULL,
+	id int NOT NULL,
 	posicion_mapa varchar(50) NOT NULL,
 	tipo_accion varchar(150) NOT NULL,
 	obj_id int NOT NULL,
-	cantidad smallint NOT NULL
+	cantidad smallint NOT NULL,
+	PRIMARY KEY (nombre_r, nombre_m, c_uid, id)
 );
-ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_nombre_r_fk FOREIGN KEY (nombre_r) REFERENCES region (nombre_r);
-ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_nombre_m_fk FOREIGN KEY (nombre_m) REFERENCES mapa (nombre);
-ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
-ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id)
+ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_fks FOREIGN KEY (nombre_r, nombre_m, c_uid) REFERENCES region(nombre_r, nombre_m, c_uid);
+
+--ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_nombre_r_fk FOREIGN KEY (nombre_r) REFERENCES region (nombre_r);
+--ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_nombre_m_fk FOREIGN KEY (nombre_m) REFERENCES mapa (nombre);
+--ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
+ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_obj_id_fk FOREIGN KEY (c_uid ,obj_id) REFERENCES objeto (c_uid, id);
 ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_cant_notneg CHECK (cantidad >= 0);
+
+
 
 -------------------------------evento_mision-------------------------
 CREATE TABLE evento_mision (
@@ -140,11 +147,44 @@ ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_cantidad_notneg CHECK (ca
 CREATE TABLE otorga_gachapon(
 	gacha_id bigint PRIMARY KEY NOT NULL,
 	obj_id int PRIMARY KEY NOT NULL,
-	uid bigint PRIMARY KEY NOT NULL,
+	c_uid bigint PRIMARY KEY NOT NULL,
 	cantidad int NOT NULL,
 	fecha date
 );
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_gacha_id_fk FOREIGN KEY (gacha_id) REFERENCES gachapon(codigo);
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
-ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_uid_fk FOREIGN KEY (uid) REFERENCES usuario (uid);
+ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_uid_fk FOREIGN KEY (c_uid) REFERENCES usuario (uid);
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_cantidad_notneg CHECK (cantidad >= 0);
+
+-------------------------------FUNCTIONS-------------------------
+
+
+CREATE OR REPLACE FUNCTION add_or_update_object (
+	n_id int,
+	n_c_uid bigint,
+	n_cantidad int,
+	n_obj_estrellas smallint, 
+	n_tipo_obj varchar,
+	n_nombre varchar,
+	)
+RETURN void AS $$
+BEGIN
+	IF EXISTS(
+		SELECT *
+		FROM objeto O
+		WHERE O.c_uid = n_c_uid
+		AND O.obj_id = n_obj_id)
+	THEN
+		UPDATE objeto SET cantidad += n_cantidad;
+	ELSE
+		INSERT INTO objeto VALUES (n_id, n_c_uid, n_cantidad, n_obj_estrellas, n_tipo_obj, n_nombre);
+	END IF;
+END;
+$$ LANGUAGE plpgsql;
+
+
+
+
+
+	
+	
