@@ -82,10 +82,6 @@ CREATE TABLE recompensa_explo (
 	PRIMARY KEY (nombre_r, nombre_m, c_uid, id)
 );
 ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_fks FOREIGN KEY (nombre_r, nombre_m, c_uid) REFERENCES region(nombre_r, nombre_m, c_uid);
-
---ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_nombre_r_fk FOREIGN KEY (nombre_r) REFERENCES region (nombre_r);
---ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_nombre_m_fk FOREIGN KEY (nombre_m) REFERENCES mapa (nombre);
---ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
 ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_obj_id_fk FOREIGN KEY (c_uid ,obj_id) REFERENCES objeto (c_uid, id);
 ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_cant_notneg CHECK (cantidad >= 0);
 
@@ -93,67 +89,69 @@ ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_cant_notneg CHECK (
 
 -------------------------------evento_mision-------------------------
 CREATE TABLE evento_mision (
-	id int PRIMARY KEY NOT NULL, 
+	id int NOT NULL, 
 	nombre varchar(255) NOT NULL,
 	desde date NOT NULL,
-	hasta date NOT NULL
-),
+	hasta date NOT NULL,
+	PRIMARY KEY (id)
+);
 
 ALTER TABLE evento_mision ADD CONSTRAINT eventmis_fecha_check CHECK (desde <= hasta);
 
 
 -------------------------------compra-------------------------
 CREATE TABLE compra (
-	codigo bigint PRIMARY KEY NOT NULL,
+	codigo bigint NOT NULL,
 	c_uid bigint NOT NULL,
 	tipo_div varchar(50) NOT NULL,
 	fecha date NOT NULL,
 	obj_id bigint NOT NULL, 
 	cantidad smallint NOT NULL,
-	cargo int NOT NULL
+	cargo int NOT NULL,
+	PRIMARY KEY (codigo)
 );
-ALTER TABLE compra ADD CONSTRAINT compra_c_uid_fk FOREIGN KEY (c_uid) REFERENCES cuenta_usuario (UID);
-ALTER TABLE compra ADD CONSTRAINT compra_tipo_div_rest CHECK (tipo_div == 'USD' OR  tipo_div == 'protogema' OR tipo_div == 'mora' OR tipo_div == 'cristal_genesis');
-ALTER TABLE compra ADD CONSTRAINT compra_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
+ALTER TABLE compra ADD CONSTRAINT compra_fks FOREIGN KEY (c_uid,obj_id) REFERENCES objeto (c_uid, id);
+ALTER TABLE compra ADD CONSTRAINT compra_tipo_div_rest CHECK (tipo_div = 'USD' OR  tipo_div = 'protogema' OR tipo_div = 'mora' OR tipo_div = 'cristal_genesis');
 ALTER TABLE compra ADD CONSTRAINT compra_cantidad_notneg CHECK (cantidad >= 0);
 ALTER TABLE compra ADD CONSTRAINT compra_cargo_notneg CHECK (cargo >= 0);
 
 
 -------------------------------gachapon-------------------------
 CREATE TABLE gachapon (
-	codigo bigint PRIMARY KEY NOT NULL,
+	codigo bigint NOT NULL,
 	tipo varchar(50) NOT NULL,
 	obj_id bigint NOT NULL,
 	fecha_hora date NOT NULL,
+	PRIMARY KEY (codigo)
 );
 
 
 -------------------------------Otorga_em-------------------------
 CREATE TABLE otorga_evento_mision (
-	eventmis_id int PRIMARY KEY NOT NULL,
-	obj_id int PRIMARY KEY NOT NULL,
-	c_uid bigint PRIMARY KEY NOT NULL,
+	eventmis_id int NOT NULL,
+	obj_id int NOT NULL,
+	c_uid bigint NOT NULL,
 	cantidad int NOT NULL,
-	fecha date
+	fecha date,
+	PRIMARY KEY (eventmis_id, obj_id, c_uid)
 );
 
 ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_eventmis_id_fk FOREIGN KEY (eventmis_id) REFERENCES evento_mision (id);
-ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
-ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_uid_fk FOREIGN KEY (c_uid) REFERENCES usuario (uid);
+ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_eventmis_obj_uid_fk FOREIGN KEY (obj_id, c_uid) REFERENCES objeto (id, c_uid);
 ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_cantidad_notneg CHECK (cantidad >= 0);
 
 
 -------------------------------otorga_gachapon-------------------------
 CREATE TABLE otorga_gachapon(
-	gacha_id bigint PRIMARY KEY NOT NULL,
-	obj_id int PRIMARY KEY NOT NULL,
-	c_uid bigint PRIMARY KEY NOT NULL,
+	gacha_id bigint NOT NULL,
+	obj_id int NOT NULL,
+	c_uid bigint NOT NULL,
 	cantidad int NOT NULL,
-	fecha date
+	fecha date,
+	PRIMARY KEY (gacha_id, obj_id, c_uid)
 );
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_gacha_id_fk FOREIGN KEY (gacha_id) REFERENCES gachapon(codigo);
-ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_obj_id_fk FOREIGN KEY (obj_id) REFERENCES objeto (id);
-ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_uid_fk FOREIGN KEY (c_uid) REFERENCES usuario (uid);
+ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_obj_uid_fk FOREIGN KEY (obj_id, c_uid) REFERENCES objeto (id, c_uid);
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_cantidad_notneg CHECK (cantidad >= 0);
 
 -------------------------------FUNCTIONS-------------------------
@@ -165,17 +163,17 @@ CREATE OR REPLACE FUNCTION add_or_update_object (
 	n_cantidad int,
 	n_obj_estrellas smallint, 
 	n_tipo_obj varchar,
-	n_nombre varchar,
+	n_nombre varchar
 	)
-RETURN void AS $$
+RETURNS void AS $$
 BEGIN
 	IF EXISTS(
 		SELECT *
 		FROM objeto O
 		WHERE O.c_uid = n_c_uid
-		AND O.obj_id = n_obj_id)
+		AND O.id = n_id)
 	THEN
-		UPDATE objeto SET cantidad += n_cantidad;
+		UPDATE objeto SET cantidad = cantidad + n_cantidad;
 	ELSE
 		INSERT INTO objeto VALUES (n_id, n_c_uid, n_cantidad, n_obj_estrellas, n_tipo_obj, n_nombre);
 	END IF;
