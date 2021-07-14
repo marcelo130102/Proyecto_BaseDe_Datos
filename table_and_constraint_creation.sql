@@ -157,7 +157,7 @@ ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_cantidad_notneg CHECK (
 -------------------------------FUNCTIONS-------------------------
 
 
-CREATE OR REPLACE FUNCTION add_or_update_object (
+CREATE OR REPLACE FUNCTION add_object (
 	n_id int,
 	n_c_uid bigint,
 	n_cantidad int,
@@ -167,20 +167,64 @@ CREATE OR REPLACE FUNCTION add_or_update_object (
 	)
 RETURNS void AS $$
 BEGIN
-	IF EXISTS(
+	IF NOT EXISTS(
 		SELECT *
 		FROM objeto O
 		WHERE O.c_uid = n_c_uid
-		AND O.id = n_id
-		AND O.obj_estrellas = n_obj_estrellas)
+		AND O.id = n_id)
 	THEN
-		UPDATE objeto SET cantidad = cantidad + n_cantidad;
-	ELSE
 		INSERT INTO objeto VALUES (n_id, n_c_uid, n_cantidad, n_obj_estrellas, n_tipo_obj, n_nombre);
 	END IF;
 END;
 $$ LANGUAGE plpgsql;
 
+
+CREATE OR REPLACE FUNCTION add_cant_object (
+	n_id int,
+	n_c_uid bigint,
+	n_cantidad int
+	)
+RETURNS void AS $$
+BEGIN
+	IF EXISTS(
+		SELECT *
+		FROM objeto O
+		WHERE O.c_uid = n_c_uid
+		AND O.id = n_id)
+	THEN
+		UPDATE objeto 
+		SET cantidad = cantidad + n_cantidad
+		WHERE objeto.c_uid = n_c_uid 
+		AND objeto.id = n_id;
+	END IF;
+END;
+$$ LANGUAGE plpgsql;
+
+
+
+CREATE OR REPLACE FUNCTION sub_cant_object (
+	n_id int,
+	n_c_uid bigint,
+	n_cantidad int
+	)
+RETURNS void AS $$
+BEGIN
+	IF EXISTS(
+		SELECT *
+		FROM objeto O
+		WHERE O.c_uid = n_c_uid
+		AND O.id = n_id)
+	THEN
+		UPDATE objeto 
+		SET cantidad = cantidad - n_cantidad 
+		WHERE objeto.c_uid = n_c_uid 
+		AND objeto.id = n_id;
+	END IF;
+END;
+$$ LANGUAGE plpgsql;
+
+
+SELECT add_or_update_object(int '4', bigint '3', int '4',smallint '4','artefacto','flor albina');
 
 
 
