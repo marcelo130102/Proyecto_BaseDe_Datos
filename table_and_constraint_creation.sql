@@ -78,6 +78,9 @@ CREATE TABLE recompensa_explo (
 	posicion_mapa varchar(50) NOT NULL,
 	tipo_accion varchar(150) NOT NULL,
 	obj_id int NOT NULL,
+	obj_estrellas smallint NOT NULL, 
+	tipo_obj varchar(50) NOT NULL,
+	nombre_obj varchar(255) NOT NULL,
 	cantidad smallint NOT NULL,
 	PRIMARY KEY (nombre_r, nombre_m, c_uid, id)
 );
@@ -85,7 +88,7 @@ ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_fks FOREIGN KEY (no
 ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_obj_id_fk FOREIGN KEY (c_uid ,obj_id) REFERENCES objeto (c_uid, id);
 ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_cant_notneg CHECK (cantidad >= 0);
 
-
+INSERT INTO recompensa_explo VALUES ('Monstad', 'Teyvay', 1, 1, 'x:324 , y:3243', 'cofre', 1, 3, 'arma', 'espadon del aventurero', 1);
 
 -------------------------------evento_mision-------------------------
 CREATE TABLE evento_mision (
@@ -105,7 +108,10 @@ CREATE TABLE compra (
 	c_uid bigint NOT NULL,
 	tipo_div varchar(50) NOT NULL,
 	fecha date NOT NULL,
-	obj_id bigint NOT NULL, 
+	obj_id bigint NOT NULL,
+	obj_estrellas smallint NOT NULL, 
+	tipo_obj varchar(50) NOT NULL,
+	nombre_obj varchar(255) NOT NULL,	
 	cantidad smallint NOT NULL,
 	cargo int NOT NULL,
 	PRIMARY KEY (codigo)
@@ -131,6 +137,9 @@ CREATE TABLE otorga_evento_mision (
 	eventmis_id int NOT NULL,
 	obj_id int NOT NULL,
 	c_uid bigint NOT NULL,
+	obj_estrellas smallint NOT NULL, 
+	tipo_obj varchar(50) NOT NULL,
+	nombre_obj varchar(255) NOT NULL,
 	cantidad int NOT NULL,
 	fecha date,
 	PRIMARY KEY (eventmis_id, obj_id, c_uid)
@@ -140,12 +149,14 @@ ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_eventmis_id_fk FOREIGN KE
 ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_eventmis_obj_uid_fk FOREIGN KEY (obj_id, c_uid) REFERENCES objeto (id, c_uid);
 ALTER TABLE otorga_evento_mision ADD CONSTRAINT otorga_cantidad_notneg CHECK (cantidad >= 0);
 
-
 -------------------------------otorga_gachapon-------------------------
 CREATE TABLE otorga_gachapon(
 	gacha_id bigint NOT NULL,
 	obj_id int NOT NULL,
 	c_uid bigint NOT NULL,
+	obj_estrellas smallint NOT NULL, 
+	tipo_obj varchar(50) NOT NULL,
+	nombre_obj varchar(255) NOT NULL,
 	cantidad int NOT NULL,
 	fecha date,
 	PRIMARY KEY (gacha_id, obj_id, c_uid)
@@ -154,9 +165,62 @@ ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_gacha_id_fk FOREIGN KEY
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_obj_uid_fk FOREIGN KEY (obj_id, c_uid) REFERENCES objeto (id, c_uid);
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_cantidad_notneg CHECK (cantidad >= 0);
 
--------------------------------FUNCTIONS-------------------------
+-------------------------------FUNCTIONS AND TRIGGERS-------------------------
+
+CREATE OR REPLACE FUNCTION update_object_after_event()
+RETURNS TRIGGER AS $$
+	BEGIN
+		IF(TG_OP = 'INSERT') THEN
+			UPDATE objeto 
+			SET cantidad = cantidad + NEW.cantidad 
+			WHERE objeto.id = NEW.obj_id
+			AND objeto.c_uid = NEW.c_uid;
+			IF NOT FOUND THEN
+				INSERT INTO objeto VALUES(
+					NEW.obj_id, 
+					NEW.c_uid, 
+					NEW.cantidad, 
+					NEW.obj_estrellas,
+					NEW.tipo_obj,
+					NEW.nombre_obj);
+			END IF;
+			RETURN NEW;
+		END IF;
+	END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER update_obj_trigger
+BEFORE INSERT OR UPDATE ON recompensa_explo
+	FOR EACH ROW EXECUTE PROCEDURE update_object_after_event();
+	
+CREATE TRIGGER update_obj_trigger
+BEFORE INSERT OR UPDATE ON otorga_evento_mision
+	FOR EACH ROW EXECUTE PROCEDURE update_object_after_event();
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
 CREATE OR REPLACE FUNCTION add_object (
 	n_id int,
 	n_c_uid bigint,
@@ -222,6 +286,8 @@ BEGIN
 	END IF;
 END;
 $$ LANGUAGE plpgsql;
+
+
 
 
 SELECT add_or_update_object(int '4', bigint '3', int '4',smallint '4','artefacto','flor albina');
