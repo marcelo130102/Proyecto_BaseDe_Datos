@@ -5,13 +5,9 @@ CREATE DATABASE project_db;
 -------------------------------Cuenta_usuario-------------------------
 CREATE TABLE cuenta_usuario (
 	UID bigint PRIMARY KEY NOT NULL,
-	cantidad_resina smallint NOT NULL,
 	correo_electronico varchar(255) NOT NULL, 
-	protogemas int NOT NULL,
 	username varchar(50) NOT NULL,
-	cristales_genesis int NOT NULL,
 	contrasena varchar(90) NOT NULL,
-	cantidad_mora bigint NOT NULL,
 	desde date NOT NULL
 );
 ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_usuario_emailunique UNIQUE (correo_electronico);
