@@ -88,7 +88,6 @@ ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_fks FOREIGN KEY (no
 ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_obj_id_fk FOREIGN KEY (c_uid ,obj_id) REFERENCES objeto (c_uid, id);
 ALTER TABLE recompensa_explo ADD CONSTRAINT recompensa_explo_cant_notneg CHECK (cantidad >= 0);
 
-INSERT INTO recompensa_explo VALUES ('Monstad', 'Teyvay', 1, 1, 'x:324 , y:3243', 'cofre', 1, 3, 'arma', 'espadon del aventurero', 1);
 
 -------------------------------evento_mision-------------------------
 CREATE TABLE evento_mision (
@@ -196,6 +195,14 @@ BEFORE INSERT OR UPDATE ON recompensa_explo
 CREATE TRIGGER update_obj_trigger
 BEFORE INSERT OR UPDATE ON otorga_evento_mision
 	FOR EACH ROW EXECUTE PROCEDURE update_object_after_event();
+	
+	
+CREATE OR REPLACE FUNCTION compra_objs()
+RETURNS TRIGGER AS $$
+	BEGIN 
+		IF(TG_OP = 'INSERT') THEN
+			IF EXISTS(
+				 
 
 
 
@@ -287,10 +294,6 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-
-
-
-SELECT add_or_update_object(int '4', bigint '3', int '4',smallint '4','artefacto','flor albina');
 
 
 
