@@ -1,0 +1,2000 @@
+Relajatetera,0,6.8,1
+Relajatetera,3,4.23,7
+Isla dorada,6,53.622,0
+Relajatetera,9,19.177,3
+Isla dorada,12,75.038,0
+Isla dorada,15,74.354,0
+Relajatetera,18,23.198,1
+Relajatetera,21,77.317,1
+Isla dorada,24,81.231,0
+Relajatetera,27,51.465,1
+Relajatetera,30,17.468,1
+Relajatetera,33,93.636,3
+Relajatetera,36,26.388,2
+Relajatetera,39,82.21,6
+Isla dorada,42,4.795,0
+Relajatetera,45,53.797,7
+Relajatetera,48,44.011,1
+Isla dorada,51,13.447,0
+Isla dorada,54,40.466,0
+Relajatetera,57,11.815,7
+Isla dorada,60,84.018,0
+Relajatetera,63,35.675,0
+Isla dorada,66,87.274,0
+Isla dorada,69,83.965,0
+Isla dorada,72,50.591,0
+Relajatetera,75,35.518,3
+Relajatetera,78,39.145,5
+Relajatetera,81,7.157,2
+Relajatetera,84,68.21,5
+Isla dorada,87,38.079,0
+Relajatetera,90,66.619,2
+Relajatetera,93,46.555,1
+Isla dorada,96,30.758,0
+Relajatetera,99,48.4,7
+Isla dorada,102,55.059,0
+Isla dorada,105,87.799,0
+Isla dorada,108,41.79,0
+Relajatetera,111,7.69,2
+Isla dorada,114,61.898,0
+Relajatetera,117,80.563,2
+Isla dorada,120,35.111,0
+Relajatetera,123,70.219,4
+Relajatetera,126,55.472,1
+Isla dorada,129,20.227,0
+Isla dorada,132,15.465,0
+Relajatetera,135,15.71,5
+Relajatetera,138,12.673,5
+Isla dorada,141,50.607,0
+Isla dorada,144,97.897,0
+Relajatetera,147,90.652,7
+Relajatetera,150,52.942,6
+Relajatetera,153,35.976,3
+Isla dorada,156,98.357,0
+Relajatetera,159,66.972,0
+Isla dorada,162,6.478,0
+Relajatetera,165,68.354,1
+Relajatetera,168,43.228,7
+Relajatetera,171,48.045,7
+Isla dorada,174,40.146,0
+Isla dorada,177,15.68,0
+Isla dorada,180,59.744,0
+Relajatetera,183,91.292,4
+Isla dorada,186,25.504,0
+Relajatetera,189,0.135,2
+Relajatetera,192,27.546,4
+Isla dorada,195,7.519,0
+Isla dorada,198,48.925,0
+Relajatetera,201,78.233,6
+Relajatetera,204,86.901,6
+Relajatetera,207,94.172,4
+Relajatetera,210,1.649,6
+Relajatetera,213,37.581,4
+Relajatetera,216,1.626,0
+Isla dorada,219,61.97,0
+Isla dorada,222,42.89,0
+Isla dorada,225,58.765,0
+Isla dorada,228,42.335,0
+Isla dorada,231,37.102,0
+Isla dorada,234,59.292,0
+Relajatetera,237,88.075,1
+Relajatetera,240,42.783,1
+Relajatetera,243,22.936,6
+Relajatetera,246,23.323,4
+Isla dorada,249,99.089,0
+Relajatetera,252,75.299,0
+Relajatetera,255,97.719,1
+Isla dorada,258,48.946,0
+Relajatetera,261,14.239,2
+Isla dorada,264,81.693,0
+Relajatetera,267,74.833,3
+Relajatetera,270,93.956,4
+Relajatetera,273,62.922,1
+Isla dorada,276,76.07,0
+Isla dorada,279,18.074,0
+Isla dorada,282,53.771,0
+Relajatetera,285,18.76,0
+Isla dorada,288,22.647,0
+Isla dorada,291,42.819,0
+Isla dorada,294,73.4,0
+Relajatetera,297,10.115,7
+Relajatetera,300,22.935,0
+Isla dorada,303,35.486,0
+Isla dorada,306,72.997,0
+Isla dorada,309,13.54,0
+Isla dorada,312,29.698,0
+Relajatetera,315,32.46,4
+Isla dorada,318,62.683,0
+Relajatetera,321,70.219,3
+Isla dorada,324,34.313,0
+Relajatetera,327,35.165,7
+Relajatetera,330,47.408,3
+Relajatetera,333,10.341,0
+Relajatetera,336,95.703,3
+Relajatetera,339,92.102,7
+Isla dorada,342,11.296,0
+Isla dorada,345,23.434,0
+Relajatetera,348,9.215,5
+Relajatetera,351,15.285,2
+Relajatetera,354,55.757,2
+Relajatetera,357,27.652,6
+Relajatetera,360,71.721,4
+Relajatetera,363,62.802,5
+Isla dorada,366,96.009,0
+Isla dorada,369,87.675,0
+Isla dorada,372,72.313,0
+Isla dorada,375,41.947,0
+Isla dorada,378,61.487,0
+Isla dorada,381,74.889,0
+Relajatetera,384,90.583,2
+Isla dorada,387,19.199,0
+Isla dorada,390,36.124,0
+Relajatetera,393,92.376,2
+Relajatetera,396,83.1,5
+Isla dorada,399,22.499,0
+Relajatetera,402,36.094,3
+Isla dorada,405,45.597,0
+Isla dorada,408,70.142,0
+Isla dorada,411,47.344,0
+Relajatetera,414,82.329,4
+Isla dorada,417,22.743,0
+Isla dorada,420,72.501,0
+Isla dorada,423,58.857,0
+Relajatetera,426,89.926,6
+Isla dorada,429,66.484,0
+Isla dorada,432,87.245,0
+Isla dorada,435,39.421,0
+Isla dorada,438,15.087,0
+Isla dorada,441,45.046,0
+Relajatetera,444,56.621,3
+Relajatetera,447,38.646,2
+Relajatetera,450,54.694,2
+Relajatetera,453,37.525,1
+Isla dorada,456,20.45,0
+Isla dorada,459,94.325,0
+Isla dorada,462,56.136,0
+Relajatetera,465,4.223,3
+Isla dorada,468,89.595,0
+Relajatetera,471,89.557,6
+Relajatetera,474,30.719,3
+Relajatetera,477,53.974,7
+Isla dorada,480,66.111,0
+Isla dorada,483,53.683,0
+Isla dorada,486,56.836,0
+Relajatetera,489,22.764,7
+Relajatetera,492,68.502,3
+Relajatetera,495,76.046,6
+Isla dorada,498,84.386,0
+Relajatetera,501,54.293,6
+Isla dorada,504,55.686,0
+Isla dorada,507,85.549,0
+Relajatetera,510,69.778,7
+Isla dorada,513,9.18,0
+Relajatetera,516,96.894,4
+Relajatetera,519,78.323,2
+Isla dorada,522,66.09,0
+Isla dorada,525,6.333,0
+Isla dorada,528,68.093,0
+Isla dorada,531,97.187,0
+Isla dorada,534,43.599,0
+Isla dorada,537,98.156,0
+Isla dorada,540,61.784,0
+Isla dorada,543,59.188,0
+Relajatetera,546,34.213,4
+Isla dorada,549,37.133,0
+Relajatetera,552,6.064,4
+Isla dorada,555,82.798,0
+Isla dorada,558,57.372,0
+Relajatetera,561,80.038,0
+Isla dorada,564,67.005,0
+Isla dorada,567,46.229,0
+Relajatetera,570,43.214,2
+Relajatetera,573,80.38,2
+Relajatetera,576,18.771,2
+Isla dorada,579,21.007,0
+Relajatetera,582,92.808,5
+Relajatetera,585,46.255,4
+Relajatetera,588,58.37,0
+Isla dorada,591,57.783,0
+Relajatetera,594,53.567,4
+Isla dorada,597,71.662,0
+Relajatetera,600,44.098,4
+Relajatetera,603,2.896,1
+Relajatetera,606,39.264,7
+Relajatetera,609,90.861,3
+Relajatetera,612,98.127,7
+Relajatetera,615,14.667,0
+Relajatetera,618,60.339,6
+Isla dorada,621,24.612,0
+Isla dorada,624,18.261,0
+Relajatetera,627,80.927,5
+Isla dorada,630,40.266,0
+Isla dorada,633,15.904,0
+Relajatetera,636,3.11,7
+Isla dorada,639,27.26,0
+Isla dorada,642,18.739,0
+Isla dorada,645,22.823,0
+Relajatetera,648,13.172,3
+Relajatetera,651,26.693,1
+Relajatetera,654,96.468,1
+Isla dorada,657,82.599,0
+Relajatetera,660,82.763,7
+Isla dorada,663,61.825,0
+Relajatetera,666,91.832,2
+Isla dorada,669,44.076,0
+Relajatetera,672,87.378,5
+Isla dorada,675,68.363,0
+Relajatetera,678,78.58,6
+Relajatetera,681,78.149,4
+Isla dorada,684,74.841,0
+Relajatetera,687,66.308,5
+Relajatetera,690,50.659,3
+Isla dorada,693,89.164,0
+Isla dorada,696,32.211,0
+Relajatetera,699,93.099,3
+Relajatetera,702,22.02,5
+Relajatetera,705,59.399,6
+Relajatetera,708,36.321,3
+Relajatetera,711,31.037,0
+Isla dorada,714,0.44,0
+Isla dorada,717,42.067,0
+Relajatetera,720,79.313,7
+Isla dorada,723,89.161,0
+Isla dorada,726,8.878,0
+Isla dorada,729,29.983,0
+Relajatetera,732,25.006,0
+Isla dorada,735,88.191,0
+Relajatetera,738,17.704,0
+Isla dorada,741,81.967,0
+Isla dorada,744,79.714,0
+Isla dorada,747,57.4,0
+Isla dorada,750,92.374,0
+Relajatetera,753,12.516,1
+Relajatetera,756,6.361,4
+Isla dorada,759,55.268,0
+Isla dorada,762,82.209,0
+Isla dorada,765,43.318,0
+Relajatetera,768,89.013,4
+Relajatetera,771,70.472,6
+Isla dorada,774,46.778,0
+Isla dorada,777,16.827,0
+Relajatetera,780,12.671,1
+Isla dorada,783,0.601,0
+Relajatetera,786,18.454,2
+Relajatetera,789,34.882,1
+Isla dorada,792,88.202,0
+Isla dorada,795,92.585,0
+Isla dorada,798,32.253,0
+Relajatetera,801,37.29,5
+Isla dorada,804,45.673,0
+Isla dorada,807,65.434,0
+Relajatetera,810,11.51,6
+Isla dorada,813,56.635,0
+Relajatetera,816,26.5,1
+Isla dorada,819,12.635,0
+Relajatetera,822,30.15,3
+Isla dorada,825,71.685,0
+Isla dorada,828,0.836,0
+Relajatetera,831,66.796,5
+Isla dorada,834,68.656,0
+Relajatetera,837,79.049,2
+Isla dorada,840,14.697,0
+Relajatetera,843,49.047,3
+Relajatetera,846,36.261,1
+Isla dorada,849,60.466,0
+Isla dorada,852,55.617,0
+Isla dorada,855,9.071,0
+Isla dorada,858,21.887,0
+Isla dorada,861,30.049,0
+Isla dorada,864,28.881,0
+Relajatetera,867,42.918,7
+Isla dorada,870,55.678,0
+Relajatetera,873,34.693,3
+Isla dorada,876,79.774,0
+Relajatetera,879,92.179,3
+Relajatetera,882,79.583,2
+Relajatetera,885,23.959,0
+Relajatetera,888,61.853,2
+Relajatetera,891,58.485,2
+Isla dorada,894,9.378,0
+Isla dorada,897,97.019,0
+Isla dorada,900,17.041,0
+Relajatetera,903,97.27,1
+Relajatetera,906,94.889,0
+Isla dorada,909,94.816,0
+Isla dorada,912,33.965,0
+Isla dorada,915,28.638,0
+Relajatetera,918,46.685,1
+Isla dorada,921,16.29,0
+Isla dorada,924,66.158,0
+Relajatetera,927,97.953,0
+Relajatetera,930,94.723,2
+Relajatetera,933,44.229,5
+Isla dorada,936,79.142,0
+Isla dorada,939,43.957,0
+Relajatetera,942,43.419,3
+Isla dorada,945,58.159,0
+Relajatetera,948,26.324,0
+Relajatetera,951,88.54,7
+Relajatetera,954,21.965,6
+Isla dorada,957,47.518,0
+Isla dorada,960,58.413,0
+Isla dorada,963,64.316,0
+Relajatetera,966,27.106,5
+Relajatetera,969,7.707,3
+Relajatetera,972,77.507,0
+Relajatetera,975,93.354,1
+Isla dorada,978,27.738,0
+Isla dorada,981,80.479,0
+Isla dorada,984,77.836,0
+Relajatetera,987,23.186,6
+Isla dorada,990,71.207,0
+Relajatetera,993,16.123,3
+Relajatetera,996,44.199,0
+Isla dorada,999,44.902,0
+Isla dorada,1002,16.244,0
+Isla dorada,1005,16.05,0
+Isla dorada,1008,79.563,0
+Isla dorada,1011,40.698,0
+Relajatetera,1014,92.486,4
+Isla dorada,1017,43.749,0
+Isla dorada,1020,86.211,0
+Relajatetera,1023,19.424,0
+Isla dorada,1026,88.327,0
+Isla dorada,1029,68.812,0
+Isla dorada,1032,26.317,0
+Relajatetera,1035,36.493,6
+Relajatetera,1038,59.108,3
+Relajatetera,1041,38.988,7
+Isla dorada,1044,50.98,0
+Isla dorada,1047,85.35,0
+Isla dorada,1050,64.533,0
+Relajatetera,1053,38.242,6
+Relajatetera,1056,40.06,0
+Isla dorada,1059,57.118,0
+Relajatetera,1062,95.426,7
+Isla dorada,1065,9.637,0
+Isla dorada,1068,92.77,0
+Relajatetera,1071,53.319,0
+Relajatetera,1074,90.057,2
+Isla dorada,1077,32.253,0
+Relajatetera,1080,56.702,5
+Relajatetera,1083,98.706,6
+Relajatetera,1086,46.443,7
+Relajatetera,1089,75.156,6
+Isla dorada,1092,4.346,0
+Isla dorada,1095,41.896,0
+Isla dorada,1098,69.193,0
+Relajatetera,1101,9.272,4
+Relajatetera,1104,8.136,5
+Relajatetera,1107,44.948,6
+Relajatetera,1110,95.274,7
+Relajatetera,1113,83.981,0
+Isla dorada,1116,12.362,0
+Relajatetera,1119,68.578,3
+Relajatetera,1122,61.824,5
+Relajatetera,1125,89.613,5
+Relajatetera,1128,99.363,5
+Isla dorada,1131,63.258,0
+Isla dorada,1134,44.279,0
+Isla dorada,1137,86.713,0
+Relajatetera,1140,72.407,6
+Isla dorada,1143,7.089,0
+Relajatetera,1146,53.265,2
+Relajatetera,1149,97.783,0
+Relajatetera,1152,23.826,5
+Isla dorada,1155,86.293,0
+Isla dorada,1158,99.662,0
+Relajatetera,1161,34.949,0
+Isla dorada,1164,14.884,0
+Isla dorada,1167,63.047,0
+Relajatetera,1170,27.23,1
+Relajatetera,1173,4.225,0
+Isla dorada,1176,82.417,0
+Isla dorada,1179,38.679,0
+Relajatetera,1182,99.97,0
+Relajatetera,1185,35.512,7
+Relajatetera,1188,62.346,1
+Relajatetera,1191,39.406,4
+Isla dorada,1194,39.112,0
+Isla dorada,1197,11.772,0
+Relajatetera,1200,85.013,3
+Isla dorada,1203,39.839,0
+Relajatetera,1206,96.65,1
+Isla dorada,1209,30.397,0
+Isla dorada,1212,64.475,0
+Isla dorada,1215,24.307,0
+Isla dorada,1218,54.958,0
+Isla dorada,1221,58.439,0
+Relajatetera,1224,28.222,7
+Relajatetera,1227,72.514,5
+Relajatetera,1230,98.147,3
+Relajatetera,1233,37.042,2
+Isla dorada,1236,1.517,0
+Relajatetera,1239,20.494,2
+Relajatetera,1242,18.611,7
+Isla dorada,1245,69.734,0
+Relajatetera,1248,10.037,5
+Relajatetera,1251,3.685,7
+Relajatetera,1254,80.51,0
+Relajatetera,1257,34.152,0
+Isla dorada,1260,69.555,0
+Isla dorada,1263,14.268,0
+Isla dorada,1266,26.958,0
+Isla dorada,1269,45.306,0
+Isla dorada,1272,82.854,0
+Relajatetera,1275,59.571,5
+Isla dorada,1278,30.939,0
+Isla dorada,1281,11.257,0
+Relajatetera,1284,29.388,1
+Relajatetera,1287,60.449,0
+Relajatetera,1290,16.151,5
+Relajatetera,1293,87.757,2
+Isla dorada,1296,53.08,0
+Isla dorada,1299,70.515,0
+Isla dorada,1302,66.152,0
+Relajatetera,1305,90.175,1
+Isla dorada,1308,25.368,0
+Isla dorada,1311,92.188,0
+Relajatetera,1314,27.137,1
+Isla dorada,1317,12.791,0
+Relajatetera,1320,44.992,4
+Relajatetera,1323,79.862,2
+Relajatetera,1326,7.814,7
+Relajatetera,1329,54.073,7
+Isla dorada,1332,78.12,0
+Relajatetera,1335,76.659,0
+Relajatetera,1338,69.179,5
+Isla dorada,1341,32.866,0
+Isla dorada,1344,15.805,0
+Relajatetera,1347,81.223,1
+Relajatetera,1350,87.117,1
+Relajatetera,1353,87.04,3
+Relajatetera,1356,51.749,2
+Isla dorada,1359,28.485,0
+Isla dorada,1362,24.685,0
+Isla dorada,1365,47.464,0
+Relajatetera,1368,12.764,0
+Isla dorada,1371,79.986,0
+Isla dorada,1374,87.205,0
+Isla dorada,1377,16.761,0
+Relajatetera,1380,84.882,4
+Relajatetera,1383,20.129,6
+Isla dorada,1386,10.293,0
+Isla dorada,1389,56.484,0
+Isla dorada,1392,30.637,0
+Isla dorada,1395,10.013,0
+Isla dorada,1398,29.681,0
+Relajatetera,1401,17.181,4
+Relajatetera,1404,7.853,0
+Relajatetera,1407,40.52,2
+Isla dorada,1410,70.52,0
+Isla dorada,1413,99.445,0
+Relajatetera,1416,74.199,4
+Isla dorada,1419,94.776,0
+Relajatetera,1422,86.763,7
+Relajatetera,1425,44.491,6
+Isla dorada,1428,79.311,0
+Relajatetera,1431,94.251,1
+Isla dorada,1434,12.787,0
+Isla dorada,1437,0.859,0
+Relajatetera,1440,19.605,7
+Relajatetera,1443,16.333,5
+Relajatetera,1446,20.499,3
+Relajatetera,1449,93.348,7
+Relajatetera,1452,71.166,5
+Isla dorada,1455,27.078,0
+Isla dorada,1458,28.993,0
+Relajatetera,1461,3.991,5
+Relajatetera,1464,77.045,4
+Relajatetera,1467,48.214,3
+Relajatetera,1470,27.331,5
+Isla dorada,1473,59.221,0
+Relajatetera,1476,53.114,4
+Relajatetera,1479,69.673,4
+Isla dorada,1482,12.306,0
+Relajatetera,1485,12.763,4
+Relajatetera,1488,2.352,0
+Isla dorada,1491,50.959,0
+Relajatetera,1494,16.839,1
+Relajatetera,1497,30.914,1
+Isla dorada,1500,49.157,0
+Isla dorada,1503,64.809,0
+Isla dorada,1506,56.054,0
+Relajatetera,1509,81.501,4
+Relajatetera,1512,84.621,0
+Isla dorada,1515,95.034,0
+Isla dorada,1518,9.764,0
+Isla dorada,1521,90.945,0
+Isla dorada,1524,13.053,0
+Relajatetera,1527,28.328,1
+Isla dorada,1530,96.691,0
+Relajatetera,1533,87.306,4
+Isla dorada,1536,71.947,0
+Relajatetera,1539,47.749,5
+Relajatetera,1542,3.14,7
+Relajatetera,1545,30.036,4
+Isla dorada,1548,18.187,0
+Relajatetera,1551,10.587,5
+Relajatetera,1554,21.426,7
+Relajatetera,1557,83.776,7
+Isla dorada,1560,31.563,0
+Relajatetera,1563,41.484,6
+Isla dorada,1566,63.554,0
+Relajatetera,1569,30.428,2
+Isla dorada,1572,54.948,0
+Isla dorada,1575,24.774,0
+Isla dorada,1578,22.728,0
+Isla dorada,1581,41.979,0
+Isla dorada,1584,76.372,0
+Isla dorada,1587,74.099,0
+Relajatetera,1590,27.207,4
+Isla dorada,1593,63.025,0
+Relajatetera,1596,10.163,5
+Isla dorada,1599,63.213,0
+Relajatetera,1602,78.382,5
+Relajatetera,1605,16.774,7
+Relajatetera,1608,16.677,6
+Isla dorada,1611,23.23,0
+Relajatetera,1614,45.554,6
+Relajatetera,1617,46.733,6
+Isla dorada,1620,96.053,0
+Relajatetera,1623,20.045,6
+Relajatetera,1626,26.633,6
+Relajatetera,1629,22.352,5
+Relajatetera,1632,80.802,3
+Isla dorada,1635,53.741,0
+Relajatetera,1638,76.177,6
+Relajatetera,1641,93.799,1
+Relajatetera,1644,85.327,1
+Isla dorada,1647,84.175,0
+Relajatetera,1650,39.274,3
+Relajatetera,1653,52.472,5
+Relajatetera,1656,52.258,7
+Isla dorada,1659,17.659,0
+Isla dorada,1662,0.98,0
+Relajatetera,1665,92.287,2
+Isla dorada,1668,48.59,0
+Isla dorada,1671,34.951,0
+Isla dorada,1674,4.814,0
+Isla dorada,1677,48.42,0
+Isla dorada,1680,56.364,0
+Relajatetera,1683,46.835,2
+Isla dorada,1686,54.638,0
+Relajatetera,1689,40.337,6
+Relajatetera,1692,35.691,1
+Relajatetera,1695,37.707,7
+Isla dorada,1698,98.72,0
+Relajatetera,1701,4.918,6
+Relajatetera,1704,50.4,7
+Relajatetera,1707,93.17,5
+Relajatetera,1710,3.637,2
+Relajatetera,1713,50.123,3
+Isla dorada,1716,42.431,0
+Isla dorada,1719,97.271,0
+Isla dorada,1722,65.34,0
+Isla dorada,1725,15.487,0
+Isla dorada,1728,81.464,0
+Relajatetera,1731,76.345,5
+Relajatetera,1734,38.651,6
+Isla dorada,1737,99.0,0
+Relajatetera,1740,23.591,0
+Isla dorada,1743,21.333,0
+Relajatetera,1746,39.47,7
+Isla dorada,1749,12.214,0
+Relajatetera,1752,54.303,5
+Isla dorada,1755,88.194,0
+Relajatetera,1758,32.763,1
+Relajatetera,1761,63.487,2
+Relajatetera,1764,32.278,1
+Isla dorada,1767,81.12,0
+Isla dorada,1770,18.425,0
+Isla dorada,1773,89.472,0
+Isla dorada,1776,2.292,0
+Relajatetera,1779,96.165,1
+Relajatetera,1782,62.37,0
+Relajatetera,1785,82.381,6
+Isla dorada,1788,13.867,0
+Isla dorada,1791,98.286,0
+Isla dorada,1794,18.592,0
+Relajatetera,1797,29.208,6
+Isla dorada,1800,10.689,0
+Isla dorada,1803,0.38,0
+Isla dorada,1806,16.048,0
+Isla dorada,1809,73.551,0
+Isla dorada,1812,56.002,0
+Isla dorada,1815,51.456,0
+Relajatetera,1818,43.729,4
+Relajatetera,1821,95.889,4
+Isla dorada,1824,17.77,0
+Relajatetera,1827,31.214,7
+Isla dorada,1830,16.28,0
+Isla dorada,1833,23.886,0
+Relajatetera,1836,14.017,4
+Isla dorada,1839,60.931,0
+Relajatetera,1842,61.73,5
+Isla dorada,1845,44.205,0
+Isla dorada,1848,98.678,0
+Isla dorada,1851,2.16,0
+Relajatetera,1854,98.833,4
+Isla dorada,1857,81.208,0
+Relajatetera,1860,24.812,1
+Relajatetera,1863,41.457,6
+Isla dorada,1866,41.116,0
+Relajatetera,1869,22.113,6
+Relajatetera,1872,52.203,3
+Relajatetera,1875,94.775,6
+Isla dorada,1878,18.057,0
+Relajatetera,1881,15.807,0
+Relajatetera,1884,37.677,2
+Relajatetera,1887,49.719,6
+Isla dorada,1890,58.184,0
+Relajatetera,1893,48.338,3
+Isla dorada,1896,22.335,0
+Relajatetera,1899,82.023,1
+Relajatetera,1902,2.729,5
+Relajatetera,1905,91.707,5
+Relajatetera,1908,29.776,6
+Isla dorada,1911,32.236,0
+Relajatetera,1914,79.48,6
+Isla dorada,1917,61.354,0
+Relajatetera,1920,37.844,2
+Isla dorada,1923,37.755,0
+Isla dorada,1926,44.43,0
+Relajatetera,1929,43.188,2
+Relajatetera,1932,34.824,3
+Relajatetera,1935,40.664,2
+Isla dorada,1938,29.137,0
+Isla dorada,1941,47.997,0
+Relajatetera,1944,98.266,1
+Isla dorada,1947,33.398,0
+Isla dorada,1950,5.429,0
+Relajatetera,1953,33.841,3
+Isla dorada,1956,84.831,0
+Isla dorada,1959,20.438,0
+Isla dorada,1962,74.102,0
+Relajatetera,1965,45.387,4
+Isla dorada,1968,44.865,0
+Relajatetera,1971,97.908,1
+Isla dorada,1974,63.741,0
+Relajatetera,1977,9.082,5
+Isla dorada,1980,97.391,0
+Relajatetera,1983,15.101,4
+Isla dorada,1986,95.803,0
+Isla dorada,1989,24.555,0
+Relajatetera,1992,36.079,3
+Isla dorada,1995,73.28,0
+Relajatetera,1998,95.372,0
+Relajatetera,2001,46.391,2
+Relajatetera,2004,78.058,2
+Relajatetera,2007,46.861,2
+Relajatetera,2010,34.895,7
+Relajatetera,2013,36.867,2
+Relajatetera,2016,20.953,1
+Isla dorada,2019,83.921,0
+Relajatetera,2022,74.236,1
+Isla dorada,2025,65.695,0
+Isla dorada,2028,84.471,0
+Isla dorada,2031,12.955,0
+Relajatetera,2034,46.067,3
+Isla dorada,2037,81.363,0
+Relajatetera,2040,88.587,0
+Relajatetera,2043,65.909,2
+Relajatetera,2046,5.201,6
+Relajatetera,2049,56.672,3
+Isla dorada,2052,30.128,0
+Isla dorada,2055,10.907,0
+Isla dorada,2058,97.333,0
+Isla dorada,2061,53.514,0
+Isla dorada,2064,42.2,0
+Isla dorada,2067,9.658,0
+Relajatetera,2070,24.169,4
+Isla dorada,2073,26.565,0
+Relajatetera,2076,48.833,7
+Relajatetera,2079,72.324,1
+Isla dorada,2082,86.822,0
+Relajatetera,2085,68.134,1
+Isla dorada,2088,80.208,0
+Isla dorada,2091,68.494,0
+Isla dorada,2094,68.075,0
+Relajatetera,2097,30.979,7
+Isla dorada,2100,57.271,0
+Isla dorada,2103,33.697,0
+Isla dorada,2106,71.381,0
+Relajatetera,2109,90.633,4
+Isla dorada,2112,11.043,0
+Relajatetera,2115,37.353,2
+Isla dorada,2118,39.655,0
+Isla dorada,2121,70.198,0
+Relajatetera,2124,72.098,7
+Relajatetera,2127,73.28,0
+Isla dorada,2130,0.395,0
+Isla dorada,2133,74.575,0
+Isla dorada,2136,86.49,0
+Relajatetera,2139,26.717,0
+Isla dorada,2142,71.385,0
+Isla dorada,2145,25.665,0
+Relajatetera,2148,44.278,7
+Relajatetera,2151,61.045,7
+Isla dorada,2154,70.902,0
+Relajatetera,2157,88.167,7
+Relajatetera,2160,22.12,1
+Isla dorada,2163,11.412,0
+Relajatetera,2166,47.201,1
+Relajatetera,2169,11.124,3
+Relajatetera,2172,20.944,2
+Relajatetera,2175,24.231,2
+Relajatetera,2178,65.156,4
+Isla dorada,2181,90.906,0
+Relajatetera,2184,70.49,7
+Relajatetera,2187,52.518,7
+Isla dorada,2190,19.69,0
+Isla dorada,2193,85.087,0
+Isla dorada,2196,32.58,0
+Isla dorada,2199,48.247,0
+Isla dorada,2202,97.089,0
+Isla dorada,2205,45.506,0
+Isla dorada,2208,31.654,0
+Isla dorada,2211,83.095,0
+Isla dorada,2214,33.409,0
+Relajatetera,2217,13.496,6
+Relajatetera,2220,64.027,4
+Isla dorada,2223,36.249,0
+Relajatetera,2226,28.993,0
+Isla dorada,2229,34.437,0
+Isla dorada,2232,16.91,0
+Relajatetera,2235,92.721,6
+Isla dorada,2238,3.39,0
+Relajatetera,2241,91.15,0
+Relajatetera,2244,82.765,5
+Relajatetera,2247,55.825,6
+Relajatetera,2250,29.222,0
+Isla dorada,2253,57.624,0
+Isla dorada,2256,74.05,0
+Isla dorada,2259,66.586,0
+Isla dorada,2262,58.002,0
+Isla dorada,2265,29.011,0
+Isla dorada,2268,61.822,0
+Relajatetera,2271,68.522,7
+Isla dorada,2274,3.222,0
+Isla dorada,2277,49.841,0
+Isla dorada,2280,42.029,0
+Isla dorada,2283,25.826,0
+Relajatetera,2286,19.009,3
+Isla dorada,2289,94.191,0
+Isla dorada,2292,43.175,0
+Isla dorada,2295,43.503,0
+Relajatetera,2298,68.377,0
+Isla dorada,2301,57.092,0
+Isla dorada,2304,30.9,0
+Isla dorada,2307,57.196,0
+Relajatetera,2310,14.45,2
+Relajatetera,2313,26.317,4
+Isla dorada,2316,9.111,0
+Relajatetera,2319,43.114,5
+Isla dorada,2322,58.0,0
+Isla dorada,2325,35.358,0
+Isla dorada,2328,60.517,0
+Relajatetera,2331,35.401,0
+Relajatetera,2334,90.905,3
+Isla dorada,2337,73.533,0
+Isla dorada,2340,62.08,0
+Relajatetera,2343,75.786,6
+Isla dorada,2346,88.169,0
+Isla dorada,2349,6.647,0
+Isla dorada,2352,7.452,0
+Isla dorada,2355,59.953,0
+Relajatetera,2358,55.985,7
+Relajatetera,2361,37.352,2
+Relajatetera,2364,28.895,1
+Relajatetera,2367,54.339,5
+Relajatetera,2370,76.457,3
+Isla dorada,2373,61.041,0
+Relajatetera,2376,21.638,0
+Isla dorada,2379,66.668,0
+Relajatetera,2382,33.556,4
+Relajatetera,2385,13.578,6
+Isla dorada,2388,89.941,0
+Isla dorada,2391,66.849,0
+Isla dorada,2394,89.535,0
+Relajatetera,2397,44.15,2
+Isla dorada,2400,54.53,0
+Isla dorada,2403,12.421,0
+Isla dorada,2406,77.307,0
+Relajatetera,2409,48.023,1
+Isla dorada,2412,60.744,0
+Isla dorada,2415,3.665,0
+Isla dorada,2418,9.186,0
+Isla dorada,2421,22.787,0
+Isla dorada,2424,48.312,0
+Relajatetera,2427,4.809,0
+Isla dorada,2430,25.682,0
+Isla dorada,2433,99.308,0
+Relajatetera,2436,41.209,2
+Relajatetera,2439,84.281,1
+Relajatetera,2442,43.825,7
+Isla dorada,2445,35.82,0
+Isla dorada,2448,35.956,0
+Relajatetera,2451,97.733,6
+Isla dorada,2454,97.842,0
+Isla dorada,2457,99.43,0
+Isla dorada,2460,53.297,0
+Isla dorada,2463,95.829,0
+Relajatetera,2466,76.915,5
+Relajatetera,2469,25.839,2
+Isla dorada,2472,44.311,0
+Isla dorada,2475,11.32,0
+Relajatetera,2478,86.307,4
+Relajatetera,2481,88.343,1
+Isla dorada,2484,23.307,0
+Isla dorada,2487,28.725,0
+Isla dorada,2490,33.572,0
+Isla dorada,2493,81.445,0
+Relajatetera,2496,54.332,6
+Relajatetera,2499,86.377,2
+Relajatetera,2502,99.875,7
+Isla dorada,2505,2.857,0
+Isla dorada,2508,54.248,0
+Isla dorada,2511,66.284,0
+Relajatetera,2514,80.276,3
+Relajatetera,2517,6.186,6
+Isla dorada,2520,71.281,0
+Relajatetera,2523,15.355,5
+Isla dorada,2526,70.696,0
+Isla dorada,2529,98.367,0
+Relajatetera,2532,40.448,4
+Isla dorada,2535,87.913,0
+Relajatetera,2538,62.935,6
+Relajatetera,2541,11.479,6
+Relajatetera,2544,43.549,0
+Isla dorada,2547,39.468,0
+Isla dorada,2550,29.764,0
+Relajatetera,2553,60.05,7
+Isla dorada,2556,43.433,0
+Relajatetera,2559,81.638,4
+Relajatetera,2562,75.943,2
+Isla dorada,2565,43.54,0
+Isla dorada,2568,22.74,0
+Relajatetera,2571,30.84,1
+Isla dorada,2574,27.979,0
+Relajatetera,2577,42.392,1
+Relajatetera,2580,31.71,2
+Isla dorada,2583,69.192,0
+Relajatetera,2586,51.866,3
+Relajatetera,2589,98.388,2
+Isla dorada,2592,72.435,0
+Relajatetera,2595,61.86,5
+Isla dorada,2598,52.521,0
+Isla dorada,2601,65.738,0
+Relajatetera,2604,45.232,7
+Isla dorada,2607,30.53,0
+Isla dorada,2610,26.557,0
+Relajatetera,2613,53.939,7
+Isla dorada,2616,23.538,0
+Relajatetera,2619,79.017,0
+Isla dorada,2622,83.539,0
+Relajatetera,2625,1.248,6
+Relajatetera,2628,0.907,0
+Relajatetera,2631,52.353,6
+Relajatetera,2634,98.652,7
+Relajatetera,2637,98.231,3
+Isla dorada,2640,8.496,0
+Relajatetera,2643,10.044,1
+Relajatetera,2646,2.7,1
+Relajatetera,2649,24.157,1
+Isla dorada,2652,65.593,0
+Isla dorada,2655,25.853,0
+Isla dorada,2658,19.822,0
+Isla dorada,2661,90.55,0
+Isla dorada,2664,48.303,0
+Isla dorada,2667,51.285,0
+Isla dorada,2670,26.994,0
+Isla dorada,2673,60.389,0
+Relajatetera,2676,54.163,4
+Relajatetera,2679,70.353,6
+Relajatetera,2682,41.627,3
+Isla dorada,2685,50.445,0
+Relajatetera,2688,27.183,0
+Isla dorada,2691,13.565,0
+Isla dorada,2694,58.803,0
+Isla dorada,2697,93.737,0
+Isla dorada,2700,38.84,0
+Isla dorada,2703,10.628,0
+Relajatetera,2706,35.168,7
+Isla dorada,2709,4.321,0
+Relajatetera,2712,47.286,3
+Isla dorada,2715,5.809,0
+Relajatetera,2718,45.605,4
+Relajatetera,2721,6.912,5
+Relajatetera,2724,64.931,0
+Relajatetera,2727,67.088,5
+Relajatetera,2730,24.432,0
+Relajatetera,2733,8.711,2
+Relajatetera,2736,75.935,3
+Relajatetera,2739,24.439,1
+Isla dorada,2742,47.728,0
+Relajatetera,2745,42.57,0
+Relajatetera,2748,26.955,0
+Isla dorada,2751,88.707,0
+Isla dorada,2754,28.204,0
+Relajatetera,2757,96.72,6
+Relajatetera,2760,88.306,2
+Relajatetera,2763,26.64,2
+Isla dorada,2766,32.888,0
+Isla dorada,2769,14.061,0
+Relajatetera,2772,3.084,2
+Relajatetera,2775,66.336,3
+Isla dorada,2778,90.176,0
+Isla dorada,2781,19.689,0
+Relajatetera,2784,58.889,5
+Isla dorada,2787,76.677,0
+Relajatetera,2790,50.615,2
+Isla dorada,2793,86.222,0
+Relajatetera,2796,18.45,0
+Relajatetera,2799,52.779,3
+Relajatetera,2802,85.008,1
+Isla dorada,2805,75.411,0
+Isla dorada,2808,61.33,0
+Relajatetera,2811,97.855,5
+Relajatetera,2814,76.815,7
+Relajatetera,2817,95.712,6
+Relajatetera,2820,44.715,1
+Relajatetera,2823,20.789,2
+Isla dorada,2826,28.691,0
+Isla dorada,2829,77.867,0
+Isla dorada,2832,79.979,0
+Isla dorada,2835,4.791,0
+Isla dorada,2838,37.42,0
+Relajatetera,2841,79.483,4
+Isla dorada,2844,85.881,0
+Relajatetera,2847,78.835,4
+Isla dorada,2850,16.742,0
+Relajatetera,2853,36.27,2
+Isla dorada,2856,67.705,0
+Isla dorada,2859,67.383,0
+Relajatetera,2862,48.421,0
+Relajatetera,2865,53.672,3
+Relajatetera,2868,10.839,1
+Relajatetera,2871,32.483,6
+Relajatetera,2874,44.368,7
+Isla dorada,2877,65.804,0
+Relajatetera,2880,57.384,0
+Isla dorada,2883,74.631,0
+Relajatetera,2886,41.835,7
+Isla dorada,2889,9.678,0
+Relajatetera,2892,54.057,5
+Relajatetera,2895,15.067,1
+Relajatetera,2898,84.99,4
+Relajatetera,2901,57.675,1
+Relajatetera,2904,88.588,4
+Relajatetera,2907,60.67,1
+Relajatetera,2910,8.068,0
+Relajatetera,2913,69.31,7
+Isla dorada,2916,0.049,0
+Relajatetera,2919,36.205,2
+Isla dorada,2922,47.024,0
+Isla dorada,2925,71.26,0
+Isla dorada,2928,4.14,0
+Relajatetera,2931,77.805,5
+Relajatetera,2934,82.475,3
+Relajatetera,2937,29.997,0
+Isla dorada,2940,48.718,0
+Relajatetera,2943,87.235,3
+Relajatetera,2946,44.873,6
+Relajatetera,2949,27.96,1
+Relajatetera,2952,29.824,3
+Isla dorada,2955,69.798,0
+Relajatetera,2958,97.603,5
+Relajatetera,2961,5.772,4
+Isla dorada,2964,53.178,0
+Isla dorada,2967,8.704,0
+Isla dorada,2970,70.486,0
+Relajatetera,2973,44.489,0
+Relajatetera,2976,73.602,5
+Isla dorada,2979,53.666,0
+Isla dorada,2982,80.411,0
+Isla dorada,2985,60.459,0
+Isla dorada,2988,96.922,0
+Relajatetera,2991,71.529,6
+Isla dorada,2994,73.077,0
+Isla dorada,2997,50.056,0
+Isla dorada,3000,9.716,0
+Isla dorada,3003,88.662,0
+Isla dorada,3006,88.325,0
+Isla dorada,3009,6.8,0
+Relajatetera,3012,71.607,7
+Relajatetera,3015,45.278,3
+Isla dorada,3018,20.384,0
+Isla dorada,3021,22.73,0
+Isla dorada,3024,19.614,0
+Relajatetera,3027,47.98,7
+Relajatetera,3030,19.584,4
+Relajatetera,3033,40.348,5
+Isla dorada,3036,20.187,0
+Relajatetera,3039,33.239,2
+Isla dorada,3042,64.408,0
+Isla dorada,3045,70.426,0
+Relajatetera,3048,80.134,1
+Relajatetera,3051,34.028,0
+Isla dorada,3054,94.587,0
+Relajatetera,3057,59.115,1
+Isla dorada,3060,13.703,0
+Relajatetera,3063,67.571,1
+Isla dorada,3066,63.464,0
+Relajatetera,3069,22.548,0
+Relajatetera,3072,52.179,7
+Relajatetera,3075,25.125,0
+Isla dorada,3078,75.29,0
+Isla dorada,3081,23.523,0
+Isla dorada,3084,19.865,0
+Relajatetera,3087,71.226,0
+Isla dorada,3090,55.286,0
+Isla dorada,3093,35.667,0
+Isla dorada,3096,63.382,0
+Isla dorada,3099,34.514,0
+Isla dorada,3102,87.466,0
+Isla dorada,3105,99.329,0
+Isla dorada,3108,21.165,0
+Relajatetera,3111,14.158,0
+Relajatetera,3114,72.428,4
+Relajatetera,3117,59.332,3
+Relajatetera,3120,30.006,7
+Isla dorada,3123,34.343,0
+Relajatetera,3126,70.365,5
+Relajatetera,3129,96.741,3
+Relajatetera,3132,58.216,7
+Relajatetera,3135,69.784,2
+Relajatetera,3138,27.827,7
+Isla dorada,3141,51.651,0
+Isla dorada,3144,80.985,0
+Isla dorada,3147,87.043,0
+Isla dorada,3150,18.858,0
+Isla dorada,3153,66.622,0
+Isla dorada,3156,8.06,0
+Isla dorada,3159,61.434,0
+Relajatetera,3162,72.7,6
+Isla dorada,3165,42.241,0
+Relajatetera,3168,42.681,3
+Isla dorada,3171,90.984,0
+Isla dorada,3174,48.309,0
+Relajatetera,3177,3.588,4
+Isla dorada,3180,9.682,0
+Relajatetera,3183,59.302,4
+Relajatetera,3186,89.577,7
+Isla dorada,3189,97.104,0
+Relajatetera,3192,75.198,6
+Isla dorada,3195,75.133,0
+Relajatetera,3198,54.611,3
+Relajatetera,3201,37.085,7
+Isla dorada,3204,64.298,0
+Relajatetera,3207,35.08,7
+Relajatetera,3210,19.252,4
+Relajatetera,3213,4.842,2
+Isla dorada,3216,80.715,0
+Isla dorada,3219,28.685,0
+Relajatetera,3222,70.918,4
+Isla dorada,3225,8.793,0
+Isla dorada,3228,23.965,0
+Isla dorada,3231,73.479,0
+Relajatetera,3234,37.023,4
+Isla dorada,3237,47.492,0
+Relajatetera,3240,17.137,3
+Relajatetera,3243,69.128,3
+Isla dorada,3246,18.211,0
+Relajatetera,3249,97.376,4
+Isla dorada,3252,1.465,0
+Isla dorada,3255,25.625,0
+Isla dorada,3258,35.608,0
+Isla dorada,3261,86.493,0
+Relajatetera,3264,25.459,2
+Isla dorada,3267,34.833,0
+Relajatetera,3270,57.322,3
+Relajatetera,3273,12.661,1
+Isla dorada,3276,41.577,0
+Relajatetera,3279,38.873,3
+Relajatetera,3282,41.476,4
+Relajatetera,3285,75.239,1
+Isla dorada,3288,14.327,0
+Isla dorada,3291,57.707,0
+Relajatetera,3294,36.152,2
+Relajatetera,3297,77.496,2
+Relajatetera,3300,13.844,4
+Relajatetera,3303,67.833,4
+Relajatetera,3306,71.723,6
+Relajatetera,3309,92.463,2
+Relajatetera,3312,75.58,4
+Relajatetera,3315,50.366,7
+Isla dorada,3318,19.068,0
+Isla dorada,3321,37.837,0
+Isla dorada,3324,92.526,0
+Isla dorada,3327,66.225,0
+Relajatetera,3330,26.504,1
+Relajatetera,3333,27.778,0
+Relajatetera,3336,57.006,1
+Relajatetera,3339,97.202,1
+Relajatetera,3342,17.499,0
+Isla dorada,3345,29.966,0
+Relajatetera,3348,9.675,2
+Isla dorada,3351,1.497,0
+Isla dorada,3354,73.321,0
+Isla dorada,3357,66.697,0
+Isla dorada,3360,62.883,0
+Isla dorada,3363,94.34,0
+Relajatetera,3366,39.444,0
+Isla dorada,3369,83.402,0
+Relajatetera,3372,71.42,6
+Relajatetera,3375,84.9,0
+Relajatetera,3378,68.662,2
+Isla dorada,3381,76.168,0
+Isla dorada,3384,91.537,0
+Isla dorada,3387,50.784,0
+Isla dorada,3390,2.095,0
+Relajatetera,3393,68.654,7
+Relajatetera,3396,54.647,1
+Isla dorada,3399,76.376,0
+Relajatetera,3402,28.099,6
+Relajatetera,3405,45.146,0
+Relajatetera,3408,89.977,7
+Isla dorada,3411,74.262,0
+Relajatetera,3414,42.72,6
+Relajatetera,3417,65.16,4
+Relajatetera,3420,89.623,0
+Relajatetera,3423,34.143,1
+Relajatetera,3426,58.326,0
+Isla dorada,3429,97.109,0
+Relajatetera,3432,6.628,5
+Isla dorada,3435,90.251,0
+Isla dorada,3438,26.933,0
+Relajatetera,3441,24.266,4
+Isla dorada,3444,15.989,0
+Relajatetera,3447,32.956,0
+Relajatetera,3450,61.158,0
+Relajatetera,3453,66.531,5
+Isla dorada,3456,55.266,0
+Isla dorada,3459,11.275,0
+Relajatetera,3462,42.968,0
+Isla dorada,3465,75.629,0
+Relajatetera,3468,39.497,6
+Isla dorada,3471,53.242,0
+Relajatetera,3474,11.416,4
+Isla dorada,3477,44.796,0
+Isla dorada,3480,12.583,0
+Relajatetera,3483,99.149,3
+Isla dorada,3486,53.743,0
+Isla dorada,3489,35.198,0
+Relajatetera,3492,25.232,6
+Isla dorada,3495,7.05,0
+Relajatetera,3498,9.434,0
+Isla dorada,3501,19.191,0
+Relajatetera,3504,93.064,1
+Relajatetera,3507,90.042,2
+Isla dorada,3510,84.016,0
+Relajatetera,3513,70.482,4
+Relajatetera,3516,52.925,6
+Relajatetera,3519,83.921,0
+Isla dorada,3522,61.212,0
+Isla dorada,3525,63.213,0
+Relajatetera,3528,77.244,3
+Isla dorada,3531,72.059,0
+Isla dorada,3534,49.748,0
+Isla dorada,3537,65.76,0
+Relajatetera,3540,73.776,6
+Isla dorada,3543,67.512,0
+Isla dorada,3546,19.202,0
+Isla dorada,3549,91.269,0
+Isla dorada,3552,70.131,0
+Relajatetera,3555,89.69,7
+Relajatetera,3558,28.166,5
+Relajatetera,3561,91.653,2
+Relajatetera,3564,17.584,5
+Isla dorada,3567,61.041,0
+Relajatetera,3570,65.358,6
+Relajatetera,3573,37.415,5
+Relajatetera,3576,35.388,4
+Relajatetera,3579,98.172,5
+Isla dorada,3582,63.345,0
+Relajatetera,3585,30.794,4
+Relajatetera,3588,87.571,6
+Isla dorada,3591,80.889,0
+Relajatetera,3594,15.923,5
+Isla dorada,3597,26.91,0
+Relajatetera,3600,86.745,7
+Isla dorada,3603,98.904,0
+Relajatetera,3606,32.048,0
+Relajatetera,3609,37.156,1
+Relajatetera,3612,67.614,3
+Relajatetera,3615,69.806,6
+Relajatetera,3618,94.557,2
+Isla dorada,3621,60.632,0
+Isla dorada,3624,65.332,0
+Isla dorada,3627,8.545,0
+Isla dorada,3630,78.048,0
+Relajatetera,3633,97.282,7
+Relajatetera,3636,5.77,6
+Relajatetera,3639,43.794,3
+Relajatetera,3642,4.147,6
+Isla dorada,3645,21.558,0
+Isla dorada,3648,31.505,0
+Isla dorada,3651,7.285,0
+Isla dorada,3654,42.489,0
+Isla dorada,3657,65.205,0
+Isla dorada,3660,76.106,0
+Relajatetera,3663,1.789,3
+Relajatetera,3666,29.07,2
+Relajatetera,3669,96.389,2
+Relajatetera,3672,94.323,1
+Isla dorada,3675,44.837,0
+Isla dorada,3678,35.787,0
+Relajatetera,3681,37.631,1
+Relajatetera,3684,17.849,3
+Relajatetera,3687,95.242,5
+Relajatetera,3690,10.513,5
+Isla dorada,3693,43.185,0
+Relajatetera,3696,50.252,2
+Relajatetera,3699,97.435,6
+Relajatetera,3702,96.815,3
+Isla dorada,3705,39.506,0
+Relajatetera,3708,66.576,2
+Relajatetera,3711,60.414,1
+Isla dorada,3714,84.392,0
+Relajatetera,3717,41.763,2
+Relajatetera,3720,31.377,4
+Relajatetera,3723,2.714,2
+Isla dorada,3726,46.987,0
+Relajatetera,3729,84.477,4
+Isla dorada,3732,25.715,0
+Relajatetera,3735,5.788,7
+Isla dorada,3738,54.908,0
+Isla dorada,3741,61.659,0
+Relajatetera,3744,46.078,7
+Relajatetera,3747,74.648,1
+Relajatetera,3750,68.62,5
+Isla dorada,3753,95.569,0
+Relajatetera,3756,51.882,6
+Relajatetera,3759,51.659,7
+Relajatetera,3762,63.523,5
+Relajatetera,3765,2.656,7
+Relajatetera,3768,14.636,2
+Isla dorada,3771,37.648,0
+Relajatetera,3774,48.052,4
+Isla dorada,3777,45.022,0
+Relajatetera,3780,17.625,2
+Relajatetera,3783,24.989,0
+Relajatetera,3786,41.387,2
+Relajatetera,3789,49.913,2
+Relajatetera,3792,0.86,3
+Relajatetera,3795,60.679,5
+Relajatetera,3798,92.428,5
+Relajatetera,3801,12.082,0
+Isla dorada,3804,50.508,0
+Relajatetera,3807,77.186,1
+Relajatetera,3810,84.471,4
+Relajatetera,3813,53.244,0
+Isla dorada,3816,68.985,0
+Relajatetera,3819,77.04,1
+Isla dorada,3822,28.641,0
+Isla dorada,3825,79.268,0
+Relajatetera,3828,22.126,0
+Relajatetera,3831,64.22,4
+Isla dorada,3834,88.734,0
+Isla dorada,3837,58.655,0
+Isla dorada,3840,33.087,0
+Relajatetera,3843,42.801,7
+Isla dorada,3846,91.546,0
+Relajatetera,3849,19.568,3
+Relajatetera,3852,11.405,6
+Relajatetera,3855,65.924,1
+Relajatetera,3858,98.679,3
+Relajatetera,3861,63.923,0
+Isla dorada,3864,57.127,0
+Isla dorada,3867,69.196,0
+Isla dorada,3870,41.929,0
+Isla dorada,3873,29.222,0
+Relajatetera,3876,88.773,4
+Relajatetera,3879,25.962,5
+Relajatetera,3882,74.256,0
+Isla dorada,3885,91.222,0
+Relajatetera,3888,22.856,4
+Isla dorada,3891,35.32,0
+Isla dorada,3894,4.823,0
+Isla dorada,3897,79.428,0
+Relajatetera,3900,15.015,1
+Relajatetera,3903,58.403,5
+Isla dorada,3906,17.492,0
+Relajatetera,3909,35.174,5
+Isla dorada,3912,49.792,0
+Relajatetera,3915,6.749,3
+Isla dorada,3918,46.851,0
+Isla dorada,3921,17.06,0
+Isla dorada,3924,76.16,0
+Relajatetera,3927,62.63,1
+Isla dorada,3930,98.086,0
+Relajatetera,3933,80.564,3
+Isla dorada,3936,43.957,0
+Isla dorada,3939,29.688,0
+Isla dorada,3942,67.684,0
+Relajatetera,3945,54.054,3
+Relajatetera,3948,86.229,2
+Isla dorada,3951,44.999,0
+Relajatetera,3954,30.195,0
+Isla dorada,3957,98.901,0
+Relajatetera,3960,91.39,7
+Relajatetera,3963,77.982,0
+Isla dorada,3966,87.421,0
+Relajatetera,3969,35.492,7
+Isla dorada,3972,89.498,0
+Relajatetera,3975,89.727,3
+Isla dorada,3978,33.664,0
+Isla dorada,3981,58.148,0
+Isla dorada,3984,30.235,0
+Relajatetera,3987,28.904,3
+Relajatetera,3990,81.615,7
+Relajatetera,3993,61.527,2
+Isla dorada,3996,98.573,0
+Isla dorada,3999,55.32,0
+Isla dorada,4002,55.352,0
+Isla dorada,4005,38.279,0
+Relajatetera,4008,20.533,3
+Isla dorada,4011,41.75,0
+Isla dorada,4014,20.387,0
+Relajatetera,4017,22.657,5
+Relajatetera,4020,94.413,6
+Isla dorada,4023,82.436,0
+Relajatetera,4026,69.168,2
+Isla dorada,4029,23.724,0
+Isla dorada,4032,81.245,0
+Isla dorada,4035,42.536,0
+Isla dorada,4038,99.443,0
+Isla dorada,4041,88.958,0
+Isla dorada,4044,65.63,0
+Isla dorada,4047,48.64,0
+Isla dorada,4050,75.417,0
+Relajatetera,4053,69.967,6
+Relajatetera,4056,11.395,2
+Relajatetera,4059,3.574,6
+Isla dorada,4062,39.03,0
+Isla dorada,4065,31.992,0
+Isla dorada,4068,3.469,0
+Isla dorada,4071,50.738,0
+Isla dorada,4074,99.243,0
+Relajatetera,4077,29.651,1
+Isla dorada,4080,61.662,0
+Isla dorada,4083,66.816,0
+Relajatetera,4086,55.754,7
+Relajatetera,4089,11.811,5
+Relajatetera,4092,16.335,6
+Relajatetera,4095,53.574,0
+Relajatetera,4098,99.918,7
+Isla dorada,4101,46.003,0
+Isla dorada,4104,59.291,0
+Isla dorada,4107,81.808,0
+Relajatetera,4110,35.975,1
+Isla dorada,4113,43.637,0
+Isla dorada,4116,81.239,0
+Relajatetera,4119,72.139,1
+Isla dorada,4122,24.291,0
+Isla dorada,4125,3.769,0
+Relajatetera,4128,7.036,7
+Relajatetera,4131,97.075,6
+Isla dorada,4134,5.464,0
+Relajatetera,4137,11.793,2
+Relajatetera,4140,42.541,0
+Isla dorada,4143,66.969,0
+Isla dorada,4146,62.58,0
+Relajatetera,4149,9.063,4
+Relajatetera,4152,62.567,2
+Isla dorada,4155,57.661,0
+Relajatetera,4158,15.257,1
+Isla dorada,4161,71.087,0
+Isla dorada,4164,83.635,0
+Isla dorada,4167,76.153,0
+Relajatetera,4170,49.668,0
+Isla dorada,4173,87.655,0
+Relajatetera,4176,38.334,0
+Relajatetera,4179,53.806,4
+Isla dorada,4182,80.006,0
+Relajatetera,4185,45.029,4
+Isla dorada,4188,52.515,0
+Isla dorada,4191,62.413,0
+Relajatetera,4194,96.469,0
+Relajatetera,4197,25.284,4
+Isla dorada,4200,14.218,0
+Isla dorada,4203,84.5,0
+Relajatetera,4206,12.759,4
+Relajatetera,4209,35.521,5
+Isla dorada,4212,15.887,0
+Isla dorada,4215,38.964,0
+Relajatetera,4218,16.543,3
+Relajatetera,4221,0.295,7
+Isla dorada,4224,71.892,0
+Isla dorada,4227,40.914,0
+Isla dorada,4230,0.748,0
+Relajatetera,4233,13.222,5
+Relajatetera,4236,82.923,6
+Isla dorada,4239,59.207,0
+Relajatetera,4242,56.478,3
+Relajatetera,4245,10.152,6
+Relajatetera,4248,9.834,4
+Isla dorada,4251,28.65,0
+Relajatetera,4254,30.159,0
+Isla dorada,4257,10.366,0
+Relajatetera,4260,19.51,3
+Relajatetera,4263,16.415,1
+Isla dorada,4266,66.744,0
+Isla dorada,4269,54.069,0
+Relajatetera,4272,67.149,0
+Isla dorada,4275,21.178,0
+Isla dorada,4278,97.787,0
+Isla dorada,4281,27.14,0
+Isla dorada,4284,53.797,0
+Relajatetera,4287,42.071,1
+Isla dorada,4290,14.234,0
+Relajatetera,4293,83.606,6
+Relajatetera,4296,24.358,7
+Isla dorada,4299,85.518,0
+Relajatetera,4302,8.539,1
+Relajatetera,4305,39.873,6
+Isla dorada,4308,99.341,0
+Relajatetera,4311,1.678,2
+Isla dorada,4314,63.539,0
+Relajatetera,4317,36.932,3
+Relajatetera,4320,9.216,4
+Isla dorada,4323,29.954,0
+Relajatetera,4326,12.107,0
+Isla dorada,4329,25.639,0
+Isla dorada,4332,25.231,0
+Relajatetera,4335,67.465,7
+Isla dorada,4338,8.861,0
+Isla dorada,4341,18.807,0
+Isla dorada,4344,28.321,0
+Isla dorada,4347,8.869,0
+Isla dorada,4350,90.682,0
+Relajatetera,4353,59.106,4
+Isla dorada,4356,39.17,0
+Relajatetera,4359,20.487,2
+Relajatetera,4362,3.704,1
+Relajatetera,4365,14.317,4
+Isla dorada,4368,22.477,0
+Isla dorada,4371,18.98,0
+Isla dorada,4374,26.665,0
+Isla dorada,4377,12.475,0
+Relajatetera,4380,47.12,4
+Isla dorada,4383,74.195,0
+Isla dorada,4386,62.375,0
+Relajatetera,4389,13.172,7
+Relajatetera,4392,26.736,6
+Isla dorada,4395,44.621,0
+Isla dorada,4398,95.772,0
+Isla dorada,4401,85.35,0
+Isla dorada,4404,41.62,0
+Relajatetera,4407,27.009,2
+Relajatetera,4410,65.505,2
+Relajatetera,4413,57.592,1
+Relajatetera,4416,9.095,3
+Isla dorada,4419,66.535,0
+Isla dorada,4422,3.21,0
+Isla dorada,4425,47.586,0
+Isla dorada,4428,43.28,0
+Relajatetera,4431,31.592,6
+Relajatetera,4434,57.542,7
+Relajatetera,4437,42.079,6
+Relajatetera,4440,94.21,5
+Isla dorada,4443,94.699,0
+Relajatetera,4446,93.07,2
+Relajatetera,4449,54.23,7
+Isla dorada,4452,48.47,0
+Isla dorada,4455,97.865,0
+Relajatetera,4458,64.959,1
+Relajatetera,4461,98.558,1
+Relajatetera,4464,22.572,4
+Isla dorada,4467,75.149,0
+Isla dorada,4470,92.042,0
+Isla dorada,4473,94.579,0
+Relajatetera,4476,18.425,5
+Relajatetera,4479,95.013,0
+Isla dorada,4482,54.566,0
+Relajatetera,4485,31.429,7
+Relajatetera,4488,52.18,6
+Relajatetera,4491,28.455,0
+Isla dorada,4494,99.908,0
+Relajatetera,4497,22.98,1
+Relajatetera,4500,18.384,0
+Relajatetera,4503,51.809,3
+Isla dorada,4506,17.959,0
+Relajatetera,4509,84.912,3
+Relajatetera,4512,37.579,1
+Isla dorada,4515,63.934,0
+Isla dorada,4518,62.55,0
+Isla dorada,4521,41.506,0
+Relajatetera,4524,75.667,2
+Isla dorada,4527,48.97,0
+Isla dorada,4530,51.98,0
+Relajatetera,4533,36.899,2
+Isla dorada,4536,42.456,0
+Relajatetera,4539,84.915,2
+Isla dorada,4542,10.041,0
+Isla dorada,4545,87.86,0
+Isla dorada,4548,5.844,0
+Relajatetera,4551,5.16,6
+Isla dorada,4554,38.187,0
+Relajatetera,4557,14.128,1
+Relajatetera,4560,11.057,1
+Isla dorada,4563,78.737,0
+Isla dorada,4566,47.659,0
+Relajatetera,4569,97.419,7
+Relajatetera,4572,46.889,7
+Isla dorada,4575,29.623,0
+Relajatetera,4578,43.295,3
+Relajatetera,4581,90.489,0
+Isla dorada,4584,36.894,0
+Relajatetera,4587,14.856,7
+Relajatetera,4590,83.214,0
+Relajatetera,4593,1.002,7
+Relajatetera,4596,49.934,2
+Relajatetera,4599,24.603,4
+Relajatetera,4602,73.286,0
+Relajatetera,4605,37.702,4
+Isla dorada,4608,15.848,0
+Relajatetera,4611,82.117,1
+Relajatetera,4614,35.938,7
+Isla dorada,4617,23.38,0
+Relajatetera,4620,97.315,4
+Isla dorada,4623,7.086,0
+Isla dorada,4626,44.983,0
+Relajatetera,4629,98.369,4
+Relajatetera,4632,75.941,3
+Isla dorada,4635,62.487,0
+Relajatetera,4638,29.527,5
+Relajatetera,4641,62.053,5
+Relajatetera,4644,8.311,0
+Relajatetera,4647,72.18,5
+Relajatetera,4650,21.67,6
+Isla dorada,4653,14.937,0
+Isla dorada,4656,60.294,0
+Isla dorada,4659,69.945,0
+Relajatetera,4662,0.125,7
+Isla dorada,4665,58.511,0
+Relajatetera,4668,81.359,0
+Isla dorada,4671,32.691,0
+Isla dorada,4674,97.429,0
+Isla dorada,4677,17.763,0
+Isla dorada,4680,35.985,0
+Relajatetera,4683,62.334,6
+Isla dorada,4686,64.055,0
+Relajatetera,4689,31.079,7
+Relajatetera,4692,28.566,7
+Isla dorada,4695,99.846,0
+Relajatetera,4698,8.235,0
+Relajatetera,4701,53.396,2
+Relajatetera,4704,88.11,7
+Isla dorada,4707,83.289,0
+Isla dorada,4710,90.701,0
+Relajatetera,4713,39.462,6
+Relajatetera,4716,32.597,3
+Relajatetera,4719,52.582,2
+Relajatetera,4722,94.915,0
+Relajatetera,4725,17.553,4
+Isla dorada,4728,96.003,0
+Isla dorada,4731,6.299,0
+Isla dorada,4734,63.972,0
+Relajatetera,4737,99.108,1
+Relajatetera,4740,70.985,6
+Isla dorada,4743,16.727,0
+Relajatetera,4746,84.784,6
+Relajatetera,4749,39.213,3
+Isla dorada,4752,16.657,0
+Relajatetera,4755,12.835,2
+Relajatetera,4758,65.361,4
+Relajatetera,4761,11.426,0
+Isla dorada,4764,37.963,0
+Relajatetera,4767,57.501,1
+Relajatetera,4770,38.513,1
+Relajatetera,4773,79.082,0
+Relajatetera,4776,72.69,7
+Isla dorada,4779,16.671,0
+Relajatetera,4782,69.995,5
+Relajatetera,4785,58.156,7
+Relajatetera,4788,64.196,1
+Relajatetera,4791,34.505,0
+Isla dorada,4794,70.881,0
+Relajatetera,4797,52.484,4
+Isla dorada,4800,68.453,0
+Relajatetera,4803,50.963,1
+Isla dorada,4806,47.508,0
+Relajatetera,4809,57.431,4
+Isla dorada,4812,53.339,0
+Isla dorada,4815,63.248,0
+Relajatetera,4818,62.582,4
+Isla dorada,4821,10.746,0
+Isla dorada,4824,87.424,0
+Isla dorada,4827,39.965,0
+Relajatetera,4830,58.29,4
+Isla dorada,4833,64.129,0
+Isla dorada,4836,59.197,0
+Isla dorada,4839,78.918,0
+Isla dorada,4842,13.575,0
+Isla dorada,4845,77.519,0
+Isla dorada,4848,68.416,0
+Isla dorada,4851,85.889,0
+Relajatetera,4854,51.505,7
+Isla dorada,4857,78.448,0
+Isla dorada,4860,44.751,0
+Isla dorada,4863,41.914,0
+Relajatetera,4866,48.865,0
+Relajatetera,4869,38.02,3
+Relajatetera,4872,80.876,5
+Relajatetera,4875,54.87,0
+Isla dorada,4878,55.244,0
+Isla dorada,4881,1.546,0
+Relajatetera,4884,54.137,0
+Relajatetera,4887,62.008,5
+Relajatetera,4890,18.227,4
+Isla dorada,4893,97.877,0
+Relajatetera,4896,35.504,5
+Relajatetera,4899,78.602,3
+Isla dorada,4902,95.381,0
+Isla dorada,4905,38.137,0
+Relajatetera,4908,58.408,5
+Isla dorada,4911,7.917,0
+Relajatetera,4914,32.477,6
+Relajatetera,4917,85.607,2
+Relajatetera,4920,48.223,0
+Isla dorada,4923,67.978,0
+Isla dorada,4926,94.772,0
+Isla dorada,4929,39.061,0
+Isla dorada,4932,67.854,0
+Relajatetera,4935,44.647,2
+Relajatetera,4938,20.44,1
+Relajatetera,4941,91.665,4
+Relajatetera,4944,72.269,3
+Relajatetera,4947,23.841,2
+Relajatetera,4950,94.617,6
+Relajatetera,4953,8.247,5
+Isla dorada,4956,55.684,0
+Isla dorada,4959,61.424,0
+Relajatetera,4962,93.657,2
+Isla dorada,4965,0.455,0
+Relajatetera,4968,43.873,7
+Isla dorada,4971,67.36,0
+Isla dorada,4974,31.202,0
+Isla dorada,4977,28.859,0
+Relajatetera,4980,98.03,0
+Isla dorada,4983,79.101,0
+Isla dorada,4986,68.037,0
+Isla dorada,4989,80.441,0
+Isla dorada,4992,51.115,0
+Relajatetera,4995,0.478,4
+Relajatetera,4998,22.672,5
+Isla dorada,5001,60.902,0
+Relajatetera,5004,10.347,0
+Relajatetera,5007,87.882,5
+Isla dorada,5010,61.021,0
+Relajatetera,5013,9.485,1
+Isla dorada,5016,19.342,0
+Isla dorada,5019,59.028,0
+Isla dorada,5022,36.454,0
+Isla dorada,5025,9.802,0
+Relajatetera,5028,25.157,6
+Isla dorada,5031,48.733,0
+Isla dorada,5034,0.388,0
+Isla dorada,5037,22.212,0
+Isla dorada,5040,27.176,0
+Relajatetera,5043,88.002,6
+Isla dorada,5046,24.144,0
+Isla dorada,5049,21.998,0
+Isla dorada,5052,36.484,0
+Relajatetera,5055,99.829,4
+Relajatetera,5058,57.156,1
+Isla dorada,5061,40.578,0
+Isla dorada,5064,44.502,0
+Isla dorada,5067,24.926,0
+Relajatetera,5070,18.685,7
+Relajatetera,5073,48.853,4
+Relajatetera,5076,75.919,7
+Isla dorada,5079,47.532,0
+Relajatetera,5082,99.61,6
+Relajatetera,5085,35.746,6
+Isla dorada,5088,42.365,0
+Relajatetera,5091,75.998,7
+Relajatetera,5094,50.759,4
+Relajatetera,5097,36.012,4
+Relajatetera,5100,96.294,1
+Isla dorada,5103,28.412,0
+Isla dorada,5106,80.078,0
+Isla dorada,5109,80.434,0
+Relajatetera,5112,82.546,1
+Isla dorada,5115,13.896,0
+Isla dorada,5118,61.359,0
+Isla dorada,5121,90.359,0
+Isla dorada,5124,79.276,0
+Relajatetera,5127,54.898,5
+Relajatetera,5130,21.407,4
+Isla dorada,5133,27.941,0
+Relajatetera,5136,54.821,5
+Isla dorada,5139,18.254,0
+Isla dorada,5142,39.212,0
+Isla dorada,5145,15.854,0
+Isla dorada,5148,92.817,0
+Relajatetera,5151,63.422,2
+Relajatetera,5154,33.679,5
+Isla dorada,5157,29.626,0
+Isla dorada,5160,38.416,0
+Relajatetera,5163,52.998,6
+Relajatetera,5166,1.996,7
+Relajatetera,5169,30.664,3
+Relajatetera,5172,17.023,3
+Isla dorada,5175,82.329,0
+Relajatetera,5178,51.89,3
+Isla dorada,5181,60.162,0
+Relajatetera,5184,53.483,4
+Isla dorada,5187,67.399,0
+Isla dorada,5190,64.453,0
+Relajatetera,5193,47.722,2
+Isla dorada,5196,87.762,0
+Relajatetera,5199,69.453,6
+Isla dorada,5202,46.644,0
+Isla dorada,5205,14.765,0
+Isla dorada,5208,27.479,0
+Relajatetera,5211,33.043,5
+Isla dorada,5214,34.115,0
+Relajatetera,5217,4.083,4
+Isla dorada,5220,83.98,0
+Isla dorada,5223,67.908,0
+Isla dorada,5226,67.898,0
+Isla dorada,5229,41.121,0
+Relajatetera,5232,7.58,3
+Isla dorada,5235,67.425,0
+Isla dorada,5238,77.812,0
+Isla dorada,5241,56.694,0
+Isla dorada,5244,86.958,0
+Isla dorada,5247,36.534,0
+Isla dorada,5250,17.192,0
+Isla dorada,5253,27.518,0
+Relajatetera,5256,97.378,1
+Isla dorada,5259,80.979,0
+Relajatetera,5262,85.672,5
+Isla dorada,5265,16.212,0
+Isla dorada,5268,86.034,0
+Relajatetera,5271,56.124,3
+Isla dorada,5274,40.756,0
+Relajatetera,5277,46.188,3
+Relajatetera,5280,41.153,3
+Relajatetera,5283,30.439,1
+Relajatetera,5286,85.695,1
+Isla dorada,5289,51.692,0
+Isla dorada,5292,52.197,0
+Relajatetera,5295,53.634,3
+Relajatetera,5298,0.267,0
+Isla dorada,5301,67.89,0
+Isla dorada,5304,92.976,0
+Isla dorada,5307,66.459,0
+Isla dorada,5310,75.777,0
+Isla dorada,5313,57.03,0
+Relajatetera,5316,47.569,4
+Relajatetera,5319,78.942,0
+Relajatetera,5322,71.219,4
+Relajatetera,5325,9.949,2
+Relajatetera,5328,29.82,4
+Relajatetera,5331,42.495,2
+Relajatetera,5334,53.825,5
+Isla dorada,5337,78.137,0
+Relajatetera,5340,75.452,4
+Relajatetera,5343,66.152,1
+Isla dorada,5346,99.672,0
+Relajatetera,5349,92.041,2
+Relajatetera,5352,59.048,4
+Isla dorada,5355,14.56,0
+Isla dorada,5358,81.269,0
+Isla dorada,5361,29.098,0
+Relajatetera,5364,92.882,4
+Isla dorada,5367,22.144,0
+Isla dorada,5370,9.788,0
+Relajatetera,5373,67.794,3
+Relajatetera,5376,2.398,7
+Isla dorada,5379,31.171,0
+Isla dorada,5382,27.352,0
+Relajatetera,5385,94.825,3
+Isla dorada,5388,77.246,0
+Isla dorada,5391,75.155,0
+Relajatetera,5394,84.033,3
+Isla dorada,5397,50.416,0
+Relajatetera,5400,69.437,0
+Isla dorada,5403,6.743,0
+Relajatetera,5406,63.241,1
+Relajatetera,5409,96.98,1
+Isla dorada,5412,72.965,0
+Isla dorada,5415,42.126,0
+Isla dorada,5418,11.834,0
+Relajatetera,5421,20.698,4
+Relajatetera,5424,64.179,5
+Relajatetera,5427,58.313,0
+Isla dorada,5430,0.176,0
+Isla dorada,5433,65.66,0
+Relajatetera,5436,33.368,7
+Relajatetera,5439,5.864,0
+Relajatetera,5442,23.694,2
+Relajatetera,5445,20.545,7
+Relajatetera,5448,56.447,7
+Relajatetera,5451,65.892,3
+Isla dorada,5454,87.002,0
+Relajatetera,5457,60.303,2
+Isla dorada,5460,0.505,0
+Relajatetera,5463,92.064,3
+Relajatetera,5466,59.244,3
+Relajatetera,5469,1.62,5
+Relajatetera,5472,32.386,3
+Relajatetera,5475,73.317,0
+Relajatetera,5478,81.688,5
+Isla dorada,5481,32.789,0
+Isla dorada,5484,56.238,0
+Relajatetera,5487,22.55,6
+Relajatetera,5490,64.522,4
+Relajatetera,5493,53.396,2
+Isla dorada,5496,25.414,0
+Isla dorada,5499,72.803,0
+Isla dorada,5502,76.082,0
+Isla dorada,5505,84.976,0
+Isla dorada,5508,86.388,0
+Isla dorada,5511,55.762,0
+Relajatetera,5514,39.904,6
+Relajatetera,5517,8.064,7
+Isla dorada,5520,93.52,0
+Isla dorada,5523,40.447,0
+Isla dorada,5526,16.69,0
+Isla dorada,5529,92.193,0
+Isla dorada,5532,69.298,0
+Relajatetera,5535,22.583,0
+Isla dorada,5538,51.587,0
+Isla dorada,5541,86.019,0
+Relajatetera,5544,82.806,4
+Isla dorada,5547,98.87,0
+Relajatetera,5550,53.336,5
+Relajatetera,5553,12.102,3
+Relajatetera,5556,41.111,3
+Relajatetera,5559,40.144,0
+Relajatetera,5562,82.773,4
+Relajatetera,5565,27.859,1
+Isla dorada,5568,38.715,0
+Isla dorada,5571,36.611,0
+Isla dorada,5574,54.376,0
+Isla dorada,5577,5.258,0
+Isla dorada,5580,40.806,0
+Relajatetera,5583,21.577,5
+Relajatetera,5586,81.82,5
+Isla dorada,5589,9.144,0
+Isla dorada,5592,7.441,0
+Isla dorada,5595,41.038,0
+Isla dorada,5598,33.161,0
+Relajatetera,5601,69.959,6
+Relajatetera,5604,61.311,7
+Isla dorada,5607,63.448,0
+Relajatetera,5610,56.603,4
+Relajatetera,5613,51.75,1
+Relajatetera,5616,3.339,5
+Relajatetera,5619,78.16,7
+Relajatetera,5622,34.726,0
+Isla dorada,5625,96.467,0
+Isla dorada,5628,84.347,0
+Isla dorada,5631,12.07,0
+Isla dorada,5634,68.668,0
+Isla dorada,5637,12.008,0
+Relajatetera,5640,59.366,3
+Isla dorada,5643,16.821,0
+Relajatetera,5646,28.982,5
+Relajatetera,5649,85.302,2
+Isla dorada,5652,6.06,0
+Relajatetera,5655,49.278,0
+Isla dorada,5658,95.215,0
+Relajatetera,5661,84.058,0
+Relajatetera,5664,95.778,0
+Isla dorada,5667,46.586,0
+Relajatetera,5670,97.528,3
+Isla dorada,5673,54.479,0
+Relajatetera,5676,53.166,3
+Relajatetera,5679,36.16,7
+Relajatetera,5682,95.755,7
+Relajatetera,5685,14.079,0
+Isla dorada,5688,92.554,0
+Relajatetera,5691,12.736,6
+Isla dorada,5694,44.934,0
+Relajatetera,5697,44.665,1
+Relajatetera,5700,52.919,7
+Relajatetera,5703,41.242,1
+Isla dorada,5706,17.454,0
+Relajatetera,5709,28.638,6
+Isla dorada,5712,64.853,0
+Relajatetera,5715,3.629,6
+Isla dorada,5718,6.845,0
+Isla dorada,5721,91.834,0
+Relajatetera,5724,91.475,1
+Isla dorada,5727,31.93,0
+Isla dorada,5730,30.572,0
+Isla dorada,5733,70.682,0
+Relajatetera,5736,19.0,0
+Isla dorada,5739,60.578,0
+Relajatetera,5742,40.596,0
+Relajatetera,5745,63.538,6
+Relajatetera,5748,2.381,7
+Relajatetera,5751,49.108,6
+Relajatetera,5754,88.814,3
+Relajatetera,5757,48.988,4
+Relajatetera,5760,39.062,5
+Relajatetera,5763,80.179,1
+Relajatetera,5766,68.075,0
+Isla dorada,5769,17.781,0
+Relajatetera,5772,86.629,3
+Relajatetera,5775,13.624,6
+Isla dorada,5778,8.294,0
+Isla dorada,5781,18.938,0
+Isla dorada,5784,15.22,0
+Isla dorada,5787,61.13,0
+Relajatetera,5790,21.425,4
+Relajatetera,5793,64.791,0
+Isla dorada,5796,38.049,0
+Relajatetera,5799,94.513,6
+Isla dorada,5802,35.538,0
+Relajatetera,5805,30.082,5
+Relajatetera,5808,18.046,2
+Isla dorada,5811,8.071,0
+Relajatetera,5814,3.438,1
+Isla dorada,5817,21.844,0
+Relajatetera,5820,97.42,4
+Isla dorada,5823,65.921,0
+Isla dorada,5826,46.049,0
+Relajatetera,5829,24.958,5
+Isla dorada,5832,3.284,0
+Relajatetera,5835,71.192,7
+Isla dorada,5838,27.171,0
+Isla dorada,5841,58.564,0
+Isla dorada,5844,66.12,0
+Relajatetera,5847,69.089,4
+Relajatetera,5850,33.634,0
+Isla dorada,5853,29.673,0
+Relajatetera,5856,47.394,6
+Relajatetera,5859,58.175,6
+Isla dorada,5862,48.082,0
+Isla dorada,5865,90.009,0
+Isla dorada,5868,73.311,0
+Relajatetera,5871,98.594,3
+Relajatetera,5874,16.156,2
+Relajatetera,5877,59.584,4
+Relajatetera,5880,43.8,0
+Relajatetera,5883,95.301,1
+Isla dorada,5886,82.249,0
+Relajatetera,5889,88.757,1
+Isla dorada,5892,47.902,0
+Relajatetera,5895,63.453,1
+Isla dorada,5898,58.735,0
+Relajatetera,5901,60.344,7
+Isla dorada,5904,94.554,0
+Relajatetera,5907,93.2,1
+Isla dorada,5910,87.016,0
+Isla dorada,5913,35.644,0
+Isla dorada,5916,82.94,0
+Isla dorada,5919,29.699,0
+Relajatetera,5922,21.28,7
+Isla dorada,5925,21.659,0
+Isla dorada,5928,97.078,0
+Relajatetera,5931,20.658,6
+Isla dorada,5934,20.852,0
+Relajatetera,5937,75.451,0
+Relajatetera,5940,79.582,3
+Relajatetera,5943,69.492,4
+Isla dorada,5946,54.957,0
+Isla dorada,5949,25.832,0
+Isla dorada,5952,43.242,0
+Isla dorada,5955,18.493,0
+Isla dorada,5958,81.759,0
+Relajatetera,5961,43.575,4
+Relajatetera,5964,93.756,3
+Isla dorada,5967,16.556,0
+Isla dorada,5970,71.559,0
+Isla dorada,5973,41.022,0
+Isla dorada,5976,71.36,0
+Isla dorada,5979,57.525,0
+Relajatetera,5982,74.778,7
+Isla dorada,5985,61.061,0
+Relajatetera,5988,17.83,7
+Relajatetera,5991,80.458,1
+Isla dorada,5994,33.062,0
+Relajatetera,5997,73.61,7
