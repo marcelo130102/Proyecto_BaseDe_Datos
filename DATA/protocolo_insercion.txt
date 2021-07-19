@@ -1,0 +1,12 @@
+plan de insercion
+
+1- insertar usuarios
+2- insertar evento misiones
+3- insertar compras
+4- insertar gachapones
+5- insertar mapa
+6- insertar regiones
+7- insertar recompenza explo
+8- insertar otorga gachapon
+9- insertar otorga evento
+
