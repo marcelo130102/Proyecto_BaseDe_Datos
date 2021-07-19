@@ -92,7 +92,7 @@ for object in archivo:
 archivo.close()
 
 i = 0
-file_name = 'objetos/compra.txt'
+file_name = 'compra.txt'
 archivo = open(file_name, 'w')
 for k in range(6000):
     for j in range(100):
