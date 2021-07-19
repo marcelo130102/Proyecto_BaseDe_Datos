@@ -162,6 +162,7 @@ ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_cantidad_notneg CHECK (
 
 -------------------------------FUNCTIONS AND TRIGGERS-------------------------
 
+-------------------------------INSERTAR OBJETOS CUANDO OCURRE UN EVENTO-------------------------------------
 CREATE OR REPLACE FUNCTION update_object_after_event()
 RETURNS TRIGGER AS $$
 	BEGIN
@@ -192,14 +193,70 @@ CREATE TRIGGER update_obj_trigger
 BEFORE INSERT OR UPDATE ON otorga_evento_mision
 	FOR EACH ROW EXECUTE PROCEDURE update_object_after_event();
 	
+CREATE TRIGGER update_obj_trigger
+BEFORE INSERT OR UPDATE ON otorga_gachapon
+	FOR EACH ROW EXECUTE PROCEDURE update_object_after_event();
 	
-CREATE OR REPLACE FUNCTION compra_objs()
-RETURNS TRIGGER AS $$
-	BEGIN 
-		IF(TG_OP = 'INSERT') THEN
-			IF EXISTS(
-				 
+CREATE TRIGGER update_obj_trigger
+BEFORE INSERT OR UPDATE ON compra
+	FOR EACH ROW EXECUTE PROCEDURE update_object_after_event();
+	
+--------------------------------CUANDO SE CREA UN USUARIO GENERAR OBJETOS BASICOS Y MAPA-----------------------
 
+CREATE OR REPLACE FUNCTION generate_basic_objects()
+RETURN TRIGGER AS $$
+	BEGIN
+		IF(TG_OP = 'INSERT')THEN
+			INSERT INTO objeto VALUES(
+				0,
+				OLD.uid,
+				0,
+				1,
+				'divisa',
+				'mora');
+			INSERT INTO objeto VALUES(
+				1,
+				OLD.uid,
+				0,
+				5,
+				'divisa',
+				'protogemas');
+			INSERT INTO objeto VALUES(
+				2,
+				OLD.uid,
+				0,
+				5,
+				'divisa',
+				'cristales_genesis');
+		END IF;
+		RETURN NEW;
+	END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER generate_basics
+BEFORE INSERT ON cuenta_usuario
+	FOR EACH ROW EXECUTE PROCEDURE generate_basic_objects();
+	
+
+CREATE OR REPLACE FUNCTION generate_map()
+RETURN TRIGGER AS $$
+	BEGIN
+		IF(TG_OP = 'INSERT')THEN
+			INSERT INTO mapa VALUES(
+				'Teyvat',
+				OLD.uid,
+				0,
+				0);
+		END IF;
+		RETURN NEW;
+	END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER generate_map_before_insert_user
+BEFORE INSERT ON cuenta_usuario
+	FOR EACH ROW EXECUTE PROCEDURE generate_map();
+	
+---------------------------------------TRANSACCIONES(POR HACER)-----------------------------------------------
 
 
 
