@@ -11,10 +11,7 @@ CREATE TABLE cuenta_usuario (
 	desde date NOT NULL
 );
 ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_usuario_emailunique UNIQUE (correo_electronico);
-ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_cantidad_resina_notneg CHECK (cantidad_resina >= 0); 
-ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_protogemas_notneg CHECK (protogemas >= 0); 
-ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_cantidad_mora_notneg CHECK (cantidad_mora >= 0);
-ALTER TABLE cuenta_usuario ADD CONSTRAINT cuenta_cristales_genesis_notneg CHECK (cristales_genesis >= 0); 
+
 
 
 -------------------------------objeto-------------------------
@@ -57,7 +54,7 @@ CREATE TABLE region (
 	cant_estatuas_act smallint NOT NULL,
 	PRIMARY KEY (nombre_r, nombre_m, c_uid)
 );
-ALTER TABLE region ADD CONSTRAINT region_nombre_m_c_uid FOREIGN KEY (nombre_m, c_uid) REFERENCES mapa (nombre, c_uid)
+ALTER TABLE region ADD CONSTRAINT region_nombre_m_c_uid FOREIGN KEY (nombre_m, c_uid) REFERENCES mapa (nombre, c_uid);
 ALTER TABLE region ADD CONSTRAINT region_prcntj_cmplt_r_range CHECK (prcntj_cmplt_r BETWEEN  0 AND 100);
 ALTER TABLE region ADD CONSTRAINT region_cant_tp_notneg CHECK (cant_tp_act >= 0);
 ALTER TABLE region ADD CONSTRAINT region_cant_boss_notneg CHECK (cant_boss_act >= 0);
@@ -122,10 +119,11 @@ CREATE TABLE gachapon (
 	codigo bigint NOT NULL,
 	tipo varchar(50) NOT NULL,
 	obj_id bigint NOT NULL,
-	fecha_hora date NOT NULL,
+	fecha_hora timestamp NOT NULL,
 	PRIMARY KEY (codigo)
 );
 
+COPY genshin_db.gachapon FROM 'C:\Users\Dom\Desktop\utec\4 ciclo\Base de datos 1\Proyecto_BaseDe_Datos\DATA\scripts\generate_gachapones.tsv' DELIMITER E',';
 
 -------------------------------Otorga_em-------------------------
 CREATE TABLE otorga_evento_mision (
@@ -204,26 +202,26 @@ BEFORE INSERT OR UPDATE ON compra
 --------------------------------CUANDO SE CREA UN USUARIO GENERAR OBJETOS BASICOS Y MAPA-----------------------
 
 CREATE OR REPLACE FUNCTION generate_basic_objects()
-RETURN TRIGGER AS $$
+RETURNS TRIGGER AS $$
 	BEGIN
 		IF(TG_OP = 'INSERT')THEN
 			INSERT INTO objeto VALUES(
 				0,
-				OLD.uid,
+				NEW.uid,
 				0,
 				1,
 				'divisa',
 				'mora');
 			INSERT INTO objeto VALUES(
 				1,
-				OLD.uid,
+				NEW.uid,
 				0,
 				5,
 				'divisa',
 				'protogemas');
 			INSERT INTO objeto VALUES(
 				2,
-				OLD.uid,
+				NEW.uid,
 				0,
 				5,
 				'divisa',
@@ -234,17 +232,17 @@ RETURN TRIGGER AS $$
 $$ LANGUAGE plpgsql;
 
 CREATE TRIGGER generate_basics
-BEFORE INSERT ON cuenta_usuario
+AFTER INSERT ON cuenta_usuario
 	FOR EACH ROW EXECUTE PROCEDURE generate_basic_objects();
 	
 
 CREATE OR REPLACE FUNCTION generate_map()
-RETURN TRIGGER AS $$
+RETURNS TRIGGER AS $$
 	BEGIN
 		IF(TG_OP = 'INSERT')THEN
 			INSERT INTO mapa VALUES(
 				'Teyvat',
-				OLD.uid,
+				NEW.uid,
 				0,
 				0);
 		END IF;
@@ -253,7 +251,7 @@ RETURN TRIGGER AS $$
 $$ LANGUAGE plpgsql;
 
 CREATE TRIGGER generate_map_before_insert_user
-BEFORE INSERT ON cuenta_usuario
+AFTER INSERT ON cuenta_usuario
 	FOR EACH ROW EXECUTE PROCEDURE generate_map();
 	
 ---------------------------------------TRANSACCIONES(POR HACER)-----------------------------------------------
