@@ -17,7 +17,7 @@ tipo_div = [
 
 objects = {}
 names = []
-file_name = 'armas.txt'
+file_name = 'objetos/armas.txt'
 archivo = open(file_name, 'r+')
 
 i = 0
@@ -34,7 +34,7 @@ for object in archivo:
 
 archivo.close()
 
-file_name = 'materiales.txt'
+file_name = 'objetos/materiales.txt'
 archivo = open(file_name, 'r+')
 for object in archivo:
     object = object.replace('\n', '')
@@ -49,7 +49,7 @@ for object in archivo:
 
 archivo.close()
 
-file_name = 'personajes.txt'
+file_name = 'objetos/personajes.txt'
 archivo = open(file_name, 'r+')
 for object in archivo:
     object = object.replace('\n', '')
@@ -63,7 +63,7 @@ for object in archivo:
     i += 1
 archivo.close()
 
-file_name = 'personajes5.txt'
+file_name = 'objetos/personajes5.txt'
 archivo = open(file_name, 'r+')
 for object in archivo:
     object = object.replace('\n', '')
@@ -77,7 +77,7 @@ for object in archivo:
     i += 1
 archivo.close()
 
-file_name = 'artefactos.txt'
+file_name = 'objetos/artefactos.txt'
 archivo = open(file_name, 'r+')
 for object in archivo:
     object = object.replace('\n', '')
@@ -92,7 +92,7 @@ for object in archivo:
 archivo.close()
 
 i = 0
-file_name = 'compra.txt'
+file_name = 'objetos/compra.txt'
 archivo = open(file_name, 'w')
 for k in range(6000):
     for j in range(100):
