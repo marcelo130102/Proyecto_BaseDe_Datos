@@ -44,7 +44,7 @@ xf = ''
 for line in raw_file:
     lista = line.rsplit(',')
     for word in lista:
-        xf = word.replace('\'hola\'', generate_rand_event(eventos))
-        mod_file.write(xf)
+        xf = word.replace('\'hola\'',generate_rand_event(eventos))
+        mod_file.write(xf + ',')
 
 
