@@ -119,7 +119,6 @@ CREATE TABLE gachapon (
 	codigo bigint NOT NULL,
 	tipo varchar(50) NOT NULL,
 	obj_id bigint NOT NULL,
-	fecha_hora timestamp NOT NULL,
 	PRIMARY KEY (codigo)
 );
 
@@ -134,7 +133,7 @@ CREATE TABLE otorga_evento_mision (
 	tipo_obj varchar(50) NOT NULL,
 	nombre_obj varchar(255) NOT NULL,
 	cantidad int NOT NULL,
-	fecha date,
+	fecha timestamp,
 	PRIMARY KEY (eventmis_id, obj_id, c_uid)
 );
 
@@ -151,7 +150,7 @@ CREATE TABLE otorga_gachapon(
 	tipo_obj varchar(50) NOT NULL,
 	nombre_obj varchar(255) NOT NULL,
 	cantidad int NOT NULL,
-	fecha date,
+	fecha timestamp,
 	PRIMARY KEY (gacha_id, obj_id, c_uid)
 );
 ALTER TABLE otorga_gachapon ADD CONSTRAINT otor_gachapon_gacha_id_fk FOREIGN KEY (gacha_id) REFERENCES gachapon(codigo);
