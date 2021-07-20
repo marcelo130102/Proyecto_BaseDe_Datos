@@ -5,7 +5,7 @@ def generate_rand_objects(names):
     return nombre
 
 def rand_pos():
-    return '({},{})'.format(round(r.uniform(0.0,900.0),4), round(r.uniform(0.0,900.0),4))
+    return '({};{})'.format(round(r.uniform(0.0,900.0),4), round(r.uniform(0.0,900.0),4))
 
 def rand_acc(accion):
     return accion[r.randint(0,len(accion)-1)]

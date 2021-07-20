@@ -122,7 +122,7 @@ CREATE TABLE gachapon (
 	PRIMARY KEY (codigo)
 );
 
-COPY genshin_db.gachapon FROM 'C:\Users\Dom\Desktop\utec\4 ciclo\Base de datos 1\Proyecto_BaseDe_Datos\DATA\scripts\generate_gachapones.tsv' DELIMITER E',';
+COPY genshin_db.compra FROM 'C:\Users\Dom\Desktop\utec\4 ciclo\Base de datos 1\Proyecto_BaseDe_Datos\DATA\compra.tsv' DELIMITER E',';
 
 -------------------------------Otorga_em-------------------------
 CREATE TABLE otorga_evento_mision (

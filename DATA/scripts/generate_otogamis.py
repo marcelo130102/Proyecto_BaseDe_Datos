@@ -84,11 +84,11 @@ for object in archivo:
 archivo.close()
 
 k = 0
-file_name = 'otorgagacha.txt'
+file_name = 'otorgamis.txt'
 archivo = open(file_name, 'w')
 
 for i in range(6000):
-    for j in range(r.randint(0,30),r.randint(31,100),1):
+    for j in range(r.randint(1,30),r.randint(31,100),1):
         temp = generate_rand_objects(names)
         id = objects[temp]['id']
         tipo_obj = objects[temp]['tipo_obj']
